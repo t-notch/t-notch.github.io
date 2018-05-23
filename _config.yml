@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "contrast" # "default" "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "A Psychotherapist for Robots"
+title                    : "Cool Dad with his Cool Robots"
 title_separator          : "-"
 name                     : "T-Notch"
-description              : "I help robots improve relationship with human."
+description              : "Dad, Engineer, Builder and Learner with great passion for robots"
 url                      : https://t-notch.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : t-notch/t-notch.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "T-Notch"
   avatar           : "https://avatars0.githubusercontent.com/u/37850049?s=460&v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I help robots improve relationship with human."
+  bio              : "Dad, Engineer, Builder and Learner with great passion for robots"
   location         : "Limburg - Belgium"
   email            :
   uri              :

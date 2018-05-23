@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Lazy Dad with his Cool Robots"
 title_separator          : "-"
 name                     : "T-Notch"
-description              : "Dad, Engineer, Builder and Learner with great passion for robots"
+description              : "Dad, Engineer, Builder and Learner. "
 url                      : https://t-notch.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : t-notch/t-notch.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "T-Notch"
   avatar           : "https://avatars0.githubusercontent.com/u/37850049?s=460&v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Dad, Engineer, Builder and Learner with great passion for robots"
+  bio              : "Dad who learns and creates \n things \n and wants to share passion to his son"
   location         : "Limburg - Belgium"
   email            :
   uri              :

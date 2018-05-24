@@ -26,7 +26,7 @@ social-email: t.notch@zoho.eu # add your Email address
 analytics: # Google Analytics
 
 # Build Settings
-markdown: kramdown#
+markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"

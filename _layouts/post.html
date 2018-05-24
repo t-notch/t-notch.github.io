@@ -27,10 +27,13 @@ layout: main
           {% endfor %}
         </div>
       </div>
+      
       {% include facebook.html %}
-		<hr/>
-		<h4>Comments</h4>
-		<div class="fb-comments" data-href="http://t-notch.github.io{{ page.url }}" data-colorscheme="light" data-num-posts="8" data-width="706"></div>
+		{% if page.fbcomments %}
+			<hr/>
+			<h4>Comments</h4>
+			<div class="fb-comments" data-href="http://t-notch.github.io{{ page.url }}" data-colorscheme="light" data-num-posts="8" data-width="706"></div>
+      {% endif %}
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->

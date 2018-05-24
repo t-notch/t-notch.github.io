@@ -30,19 +30,19 @@ html {
     margin-bottom: 10;
   h2 {
     font-size: 32px;
-    @include mqmax($large) {
+    @include breakpoint($large) {
         font-size: 28px;
     }
   }
   h3 {
     font-size: 26px;
-    @include mqmax($large) {
+    @include breakpoint($large) {
         font-size: 22px;
     }
   }
   h4 {
     font-size: 20px;
-    @include mqmax($large) {
+    @include breakpoint($large) {
         font-size: 18px;
     }
   }

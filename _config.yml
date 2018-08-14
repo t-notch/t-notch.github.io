@@ -1,20 +1,18 @@
-title: Lazy Dad with Cool Robots
+title: Open.Cloud - a sharing mindset
 description: > # this means to ignore newlines until "baseurl:"
-  github.io page of T-Notch, a Lazy Dad with Cool Robots, 
-  a dad who builds robots and shares his experience in AI, self driving 
-  car, robotics, autonomous transportation system, IoT with his sons.
+  Open.Cloud webpage - where ideas grow, revolution starts
 permalink: ':title/'
 baseurl: # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: T-Notch # add your name
+author: Open.Cloud # add your name
 author-img: t-notch.png # add your photo
-about-author: Dad who learns and creates things, wants to share his passion to his sons # add description
-location: "Limburg - Belgium"
-social-twitter: # add your Twitter handle
-social-facebook: nttputus # add your Facebook handle
+about-author: "Idea planted by one, grows with thoudsands and become reality with millions" # add description
+location: "Belgium - Sol III"
+social-twitter: tnotchbot# add your Twitter handle
+social-facebook:  # add your Facebook handle
 social-github: t-notch # add your Github handle
 social-linkedin: tienthanh # add your Linkedin handle
 social-email: t.notch@zoho.eu # add your Email address

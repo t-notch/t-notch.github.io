@@ -1,18 +1,18 @@
-title: Open.Cloud - a sharing mindset
+title: Notchlab - keeps interating future
 description: > # this means to ignore newlines until "baseurl:"
-  Open.Cloud webpage - where ideas grow, revolution starts
+  Notchlab  - where ideas grow, revolution starts
 permalink: ':title/'
 baseurl: # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+site-twitter: notch_lab #if your site has a twitter account, enter it here
 
 # Author Settings
-author: Open.Cloud # add your name
+author: T-Notch # add your name
 author-img: t-notch.png # add your photo
 about-author: "Idea planted by one, grows with thoudsands and become reality with millions" # add description
 location: "Belgium - Sol III"
-social-twitter: tnotchbot# add your Twitter handle
-social-facebook:  # add your Facebook handle
+social-twitter: notch_lab # add your Twitter handle
+#social-facebook:  # add your Facebook handle
 social-github: t-notch # add your Github handle
 social-linkedin: tienthanh # add your Linkedin handle
 social-email: t.notch@zoho.eu # add your Email address

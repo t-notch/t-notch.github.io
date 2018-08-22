@@ -16,10 +16,12 @@ layout: default
       
       
       <nav class="top-nav">
-          <p><div style="background:url('/assets/img/background_sdc.jpg');width:100%;height:44px"></div></p>
-<!--
-          <p><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" style="width:40px;height:40px;" alt="{{site.author}}" align="middle"></p>
--->
+          <p>
+            <form action="/search/index.html" method="get">
+              <input type="text" id="search-box" name="query">
+              <input type="submit" value="search">
+            </form>
+          </p>
           <a href="/"         style="color:dimgray; text-decoration:none">Home</a>
           <a href="/tag/project/" style="color:dimgray; text-decoration:none">Projects</a>
           <a href="/tag/lesson/" style="color:dimgray; text-decoration:none">Lessons</a>
@@ -35,9 +37,9 @@ layout: default
       
       <div class="deskContent">
 		  <div class="author-name">{{site.author}}</div>
-		   <p>{{site.about-author}}</p>
-		   <br>
-		   <i class="material-icons">place</i> <p>Navigation</p>
+		   <p>{{site.about-author}}</p><br>
+		   <i class="material-icons">place</i>
+      <p>
       <nav class="main-nav">
         <navul>
           <linehr/>
@@ -58,7 +60,17 @@ layout: default
         }
         </script>
       </nav>
-
+      </p>
+      
+      
+		   <br><br><br><br><br>
+      <form action="/search/index.html" method="get">
+<!--
+        <label for="search_box">Search</label>
+-->
+        <input type="text" id="search_box" name="query">
+        <input type="submit" value="search">
+      </form>
     </div>
   </header> <!-- End Header -->
   <footer>

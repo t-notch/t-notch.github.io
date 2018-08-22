@@ -13,18 +13,52 @@ layout: default
       <div class="cover-author-image">
         <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
+      
+      
+      <nav class="top-nav">
+          <p><div style="background:url('/assets/img/background_sdc.jpg');width:100%;height:44px"></div></p>
+<!--
+          <p><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" style="width:40px;height:40px;" alt="{{site.author}}" align="middle"></p>
+-->
+          <a href="/"         style="color:dimgray; text-decoration:none">Home</a>
+          <a href="/tag/project/" style="color:dimgray; text-decoration:none">Projects</a>
+          <a href="/tag/lesson/" style="color:dimgray; text-decoration:none">Lessons</a>
+          <a href="/tag/discussion/" style="color:dimgray; text-decoration:none">Discussions</a>
+        <script>
+        for (var i = 0; i < document.links.length; i++) {
+            if (document.links[i].href == document.URL) {
+                document.links[i].className = 'active';
+            }
+        }
+        </script>
+      </nav>
+      
       <div class="deskContent">
 		  <div class="author-name">{{site.author}}</div>
 		   <p>{{site.about-author}}</p>
 		   <br>
-		   <i class="material-icons">place</i> <p>{{ site.location }}</p>
-<!--
-		   <br>
-		   <a href="https://t-notch.github.io/About-Me/" target="_blank" style="color:dimgray; text-decoration:none"><p>About Me</p></a>
-		   <a href="https://t-notch.github.io/404" target="_blank" style="color:dimgray; text-decoration:none"><p>Under Construction</p></a>
-       </div>
--->
-      
+		   <i class="material-icons">place</i> <p>Navigation</p>
+      <nav class="main-nav">
+        <navul>
+          <linehr/>
+          <navli><a href="/"         style="color:dimgray; text-decoration:none">Home</a></navli>
+          <linehr/>
+          <navli><a href="/tag/project/" style="color:dimgray; text-decoration:none">Projects</a></navli>
+          <linehr/>
+          <navli><a href="/tag/lesson/" style="color:dimgray; text-decoration:none">Lessons</a></navli>
+          <linehr/>
+          <navli><a href="/tag/discussion/" style="color:dimgray; text-decoration:none">Discussions</a></navli>
+          <linehr/>
+        </navul>
+        <script>
+        for (var i = 0; i < document.links.length; i++) {
+            if (document.links[i].href == document.URL) {
+                document.links[i].className = 'active';
+            }
+        }
+        </script>
+      </nav>
+
     </div>
   </header> <!-- End Header -->
   <footer>
@@ -39,11 +73,13 @@ layout: default
         {% else %}
           <li class="github"><a href="http://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
         {% endif %}
-        {% if site.social-linkedin %}
-          <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+<!--
+        {% if site.social-medium %}
+          <li class="medium"><a href="https://in.medium.com/in/{{site.social-medium}}" target="_blank"><i class="fa fa-medium"></i></a></li>
         {% else %}
-          <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li class="medium"><a href="https://in.medium.com/" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
         {% endif %}
+-->
         {% if site.social-email %}
           <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
         {% else %}

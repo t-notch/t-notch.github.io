@@ -1,3 +1,58 @@
+linehr {
+    display: block;
+    height: 0px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0em 0;
+    padding: 0;
+}
+navli {
+  text-align: right;
+  margin: 15px auto;
+  overflow: hidden;
+}
+navul {
+  text-align: center;
+}
+a.active {
+  font-weight: bold;
+}
+
+.top-nav {   
+  overflow: hidden;
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 0 0;
+	padding: 0;
+  top: 0;
+  background-color: #ffffff;
+  position: fixed;
+	float: center;
+  z-index: 999;
+}
+
+.top-nav a {
+  float: left;
+  display: block;
+  color: #263959;
+  background: #fafafa;
+  text-align: center;
+  padding: 6px 9px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.top-nav a:hover {
+  background: #ddd;
+  color: black;
+}
+.top-nav a.active {
+  background: #ddd;
+  color: black;
+}
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -35,7 +90,10 @@ nav,
 section {
   display: block;
 }
-
+header {
+  
+  margin-bottom: 75px;
+}
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -1337,6 +1395,20 @@ a.newer-posts:hover {
 }
 
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
+/* Big Devices, Desktops */
+@media only screen and (min-width: 769px){
+  .top-nav {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px){
+  .top-nav {
+    display: yes;
+  }
+  .cover-author-image{
+    display: none;
+  }
+}
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .post {
@@ -1360,7 +1432,7 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title a {
     font-size: 21px;
-  }
+  } 
 }
 
 /* Small Devices, Tablets */
@@ -1388,7 +1460,7 @@ a.newer-posts:hover {
             box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
   }
   .sidebar footer {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   .about {
     text-align: center;
@@ -1421,7 +1493,7 @@ a.newer-posts:hover {
         -ms-flex-align: stretch;
             align-items: stretch;
   }
-  .contact-title, .copyright {
+  .contact, .copyright {
     display: none;
   }
 }

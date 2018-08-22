@@ -3,6 +3,9 @@
 	<title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+  {% if site.tags != "" %}
+  {% include collecttags.html %}
+  {% endif %}
 
     <meta content="{{ site.title }}" property="og:site_name">
   {% if page.title %}

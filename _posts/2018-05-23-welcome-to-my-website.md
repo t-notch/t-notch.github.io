@@ -1,11 +1,11 @@
 ---
 layout: post
-comments: false
-title: About Me
+weight: 1
+title: Welcome to my website!
 # date: 2018-05-23 00:00:00 +0300
-description: Hello world! Let me talk about myself  # Add post description (optional)
+description: Hello world! Welcome to my website! # Add post description (optional)
 img: "background_sdc.jpg" # Add image post (optional) in asset folder - best with 1280x pixels
-tags: project lesson discussion
+tags: welcome
 ---
 
 

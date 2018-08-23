@@ -16,12 +16,13 @@ layout: default
       
       
       <nav class="top-nav">
-          <p>
+                  
+        <p>
             <form action="/search/index.html" method="get">
-              <input type="text" id="search-box" name="query">
-              <input type="submit" value="search">
-            </form>
-          </p>
+              <input type="text" placeholder="Search.." id="search-box" name="query" size="15">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>            
+        </p>
           <a href="/"         style="color:dimgray; text-decoration:none">Home</a>
           <a href="/tag/project/" style="color:dimgray; text-decoration:none">Projects</a>
           <a href="/tag/lesson/" style="color:dimgray; text-decoration:none">Lessons</a>
@@ -37,7 +38,9 @@ layout: default
       
       <div class="deskContent">
 		  <div class="author-name">{{site.author}}</div>
-		  <br>
+      <p>{{site.about-author}}</p>
+		  
+      <i class="material-icons">place</i>
       <p>
       <nav class="main-nav">
         <navul>
@@ -63,14 +66,12 @@ layout: default
       
       
 		   <br><br><br><br><br>
-      <i class="material-icons">place</i>
-      <form action="/search/index.html" method="get">
-<!--
-        <label for="search_box">Search</label>
--->
-        <input type="text" id="search_box" name="query">
-        <input type="submit" value="search">
-      </form>
+      <div class="search-container">
+        <form action="/search/index.html" method="get">
+          <a><input type="text" placeholder="Search.." id="search-box" name="query" size="18"></a>
+          <a><button type="submit"><i class="fa fa-search"></i></button></a>
+        </form>
+      </div>
     </div>
   </header> <!-- End Header -->
   <footer>
@@ -102,6 +103,16 @@ layout: default
     <div class="copyright">
       <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
     </div>
+    
+    <nav class="bottom-nav">        
+        <p>
+           <a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a>
+           <a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+           <a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a>
+           <a class="contact-title">Contact me:</a>
+        </p>
+    </nav>
+    
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
 <div class="content-box clearfix">

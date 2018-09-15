@@ -70,10 +70,6 @@ lsi: False
 username: t-notch
 repo: t-notch.github.io
 branch: master
-relative_source: ../jasper2/
-destination: ../jasper2-pages/
-production_url:  https://notchlab.com/
-source_url:  https://github.com/t-notch/t-notch.github.io/
 
 exclude:
   - assets/css

@@ -5,7 +5,7 @@ paginate: 5 # it will paginate after this number
 language: 'en-uk'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: https://notchlab.com
 
 # Website info
 title: Notchlab - Initiate, Improve & Iterate
@@ -16,7 +16,7 @@ logo: assets/images/logo.png
 logo_dark: assets/images/logo_dark.png
 favicon: assets/images/favicon.ico
 production_url: https://notchlab.com/
-source_url: https://github.com/t-notch/t-notch.github.io
+source_url: https://github.com/t-notch/t-notch.github.io/
 
 # Social info
 navigation: True # show the navbar links
@@ -73,7 +73,7 @@ branch: master
 relative_source: ../jasper2/
 destination: ../jasper2-pages/
 production_url:  https://notchlab.com/
-source_url:  https://github.com/t-notch/t-notch.github.io
+source_url:  https://github.com/t-notch/t-notch.github.io/
 
 exclude:
   - assets/css

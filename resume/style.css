@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?uzfh66');
+  src:  url('fonts/icomoon.eot?uzfh66#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?uzfh66') format('truetype'),
+    url('fonts/icomoon.woff?uzfh66') format('woff'),
+    url('fonts/icomoon.svg?uzfh66#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-OpenCV_Logo_with_text_svg_version .path1:before {
+  content: "\e900";
+  color: rgb(255, 1, 1);
+}
+.icon-OpenCV_Logo_with_text_svg_version .path2:before {
+  content: "\e901";
+  margin-left: -0.8115234375em;
+  color: rgb(5, 5, 5);
+}
+.icon-OpenCV_Logo_with_text_svg_version .path3:before {
+  content: "\e902";
+  margin-left: -0.8115234375em;
+  color: rgb(5, 5, 5);
+}
+.icon-OpenCV_Logo_with_text_svg_version .path4:before {
+  content: "\e903";
+  margin-left: -0.8115234375em;
+  color: rgb(5, 5, 5);
+}
+.icon-OpenCV_Logo_with_text_svg_version .path5:before {
+  content: "\e904";
+  margin-left: -0.8115234375em;
+  color: rgb(5, 5, 5);
+}
+.icon-OpenCV_Logo_with_text_svg_version .path6:before {
+  content: "\e905";
+  margin-left: -0.8115234375em;
+  color: rgb(5, 5, 5);
+}
+.icon-OpenCV_Logo_with_text_svg_version .path7:before {
+  content: "\e906";
+  margin-left: -0.8115234375em;
+  color: rgb(5, 5, 5);
+}
+.icon-icons8-c-filled:before {
+  content: "\e907";
+}
+.icon-icons8-matlab:before {
+  content: "\e908";
+}
+.icon-tensorflow-tf .path1:before {
+  content: "\e909";
+  color: rgb(246, 189, 58);
+}
+.icon-tensorflow-tf .path2:before {
+  content: "\e90a";
+  margin-left: -0.951171875em;
+  color: rgb(246, 189, 58);
+}
+.icon-tensorflow-tf .path3:before {
+  content: "\e90b";
+  margin-left: -0.951171875em;
+  color: rgb(235, 140, 35);
+}
+.icon-tensorflow-tf .path4:before {
+  content: "\e90c";
+  margin-left: -0.951171875em;
+  color: rgb(227, 90, 43);
+}
+.icon-numpy-logo:before {
+  content: "\e90d";
+  color: #6272c3;
+}
+.icon-keras .path1:before {
+  content: "\e90e";
+  color: rgb(208, 0, 0);
+}
+.icon-keras .path2:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}

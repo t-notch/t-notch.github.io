@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>Solving Every Sudoku Puzzle</title>
+        
+          <description>&lt;p&gt;In this essay I tackle the problem of solving every Sudoku puzzle. It turns out to be quite easy (about &lt;a href=&quot;https://github.com/norvig/pytudes/blob/master/py/sudoku.py&quot;&gt;one page&lt;/a&gt; of code for the main idea and two pages for embellishments) using two ideas: &lt;a href=&quot;https://en.wikipedia.org/wiki/Constraint_satisfaction&quot;&gt;&lt;strong&gt;constraint propagation&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Search_algorithm&quot;&gt;&lt;strong&gt;search&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 11 Oct 2018 10:18:00 +0000</pubDate>
+        <link>
+        http://localhost:4000/solving-every-sudoku-puzzle/</link>
+        <guid isPermaLink="true">http://localhost:4000/solving-every-sudoku-puzzle/</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Welcome to Ghost</title>
         
           <description>&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
@@ -349,21 +364,6 @@ But the black kitten had been finished with earlier in the afternoon, and so, wh
         <link>
         http://localhost:4000/down-the-rabbit-hole/</link>
         <guid isPermaLink="true">http://localhost:4000/down-the-rabbit-hole/</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Gettysburg Address</title>
-        
-          <description>&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 19 Nov 1863 10:18:00 +0000</pubDate>
-        <link>
-        http://localhost:4000/gettysburg-address/</link>
-        <guid isPermaLink="true">http://localhost:4000/gettysburg-address/</guid>
       </item>
       
     

@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>ARKit Sudoku Solver</title>
+        
+          <description>&lt;p&gt;Through my whole life, I have never finished a Sudoku. Last week, on the train back home after full day meeting, and mobile phone’s battery was empty, I picked up the newspaper and gave the Sudoku a try. 40 mins and no success (such a loser am I). I thought:&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 Oct 2018 10:18:00 +0000</pubDate>
+        <link>
+        http://localhost:4000/arkit-sudoku-solver/</link>
+        <guid isPermaLink="true">http://localhost:4000/arkit-sudoku-solver/</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Solving Every Sudoku Puzzle</title>
         
           <description>&lt;p&gt;In this essay I tackle the problem of solving every Sudoku puzzle. It turns out to be quite easy (about &lt;a href=&quot;https://github.com/norvig/pytudes/blob/master/py/sudoku.py&quot;&gt;one page&lt;/a&gt; of code for the main idea and two pages for embellishments) using two ideas: &lt;a href=&quot;https://en.wikipedia.org/wiki/Constraint_satisfaction&quot;&gt;&lt;strong&gt;constraint propagation&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Search_algorithm&quot;&gt;&lt;strong&gt;search&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -287,21 +302,6 @@
         <link>
         http://localhost:4000/a-full-and-comprehensive-style-test/</link>
         <guid isPermaLink="true">http://localhost:4000/a-full-and-comprehensive-style-test/</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>I Have a Dream</title>
-        
-          <description>&lt;p&gt;I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Wed, 28 Aug 1963 10:18:00 +0000</pubDate>
-        <link>
-        http://localhost:4000/i-have-a-dream/</link>
-        <guid isPermaLink="true">http://localhost:4000/i-have-a-dream/</guid>
       </item>
       
     

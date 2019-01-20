@@ -23,7 +23,7 @@
     <style>.hljs { background: none; }</style>
 
     <!-- This tag outputs SEO meta+structured data and other important settings -->
-    <meta name="description" content="<br>Practice is the best of all instructors" />
+    <meta name="description" content="<br>Initiate, Improve & Iterate" />
     <link rel="icon" type="icon" href="/favicon.ico">
     <!-- Font Awesome -->
 	<link rel="stylesheet" href="//assets/fonts/font-awesome/css/font-awesome.min.css">
@@ -100,22 +100,17 @@
       #myBtn {
         display: none;
         position: fixed;
-        bottom: 15px;
-        right: 0px;
+        bottom: 0px;
+        right: -5px;
         z-index: 9999;
-        font-size: 30px;
         border: none;
         outline: none;
-        background-color: red;
-        opacity:0.4;
-        color: white;
+        background-color: transparent;
+        opacity:0.5;
         cursor: pointer;
-        padding: 10px;
-        border-radius: 25px 0px 0px 25px;
       }
 
       #myBtn:hover {
-        background-color: #a58b7c;
         opacity:0.7;
       }      
     </style>
@@ -124,7 +119,7 @@
 <body class="post-template">
 
         
-    <button onclick="topFunction()" id="myBtn" title="Go to top">&#10224;
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="/assets/images/chevron_round_black.png" alt="menu_btn" width="60" height="60">
     </button>
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
@@ -153,7 +148,10 @@ into the {body} of the default.hbs template -->
 
 <header class="site-header outer">
     <div class="inner">
-        <style>
+        <!--
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+-->
+<style>
 
 .search-container {
   float: center;
@@ -170,19 +168,15 @@ into the {body} of the default.hbs template -->
   text-align: center;
 }
 
-.homebtn{font-size:25px;
+.homebtn{
     cursor:pointer;
     position:fixed;
-    right:0px;
-    top:63px;
-    border-radius: 25px 0px 0px 25px; 
-    padding: 10px; 
-    background-color: red;
+    right:5px;
+    top:15px;
     opacity:0.5;
     }
 
 .homebtn:hover {
-        background-color: #a58b7c;
         opacity:0.7;
       }   
       
@@ -190,12 +184,12 @@ into the {body} of the default.hbs template -->
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 9999999;
+    z-index: 1111;
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
+    overflow: hidden;
     transition: 0.5s;
 }
 
@@ -246,13 +240,14 @@ into the {body} of the default.hbs template -->
         
         
             <ul class="nav" role="menu">
-    <li>      
-        <li class="nav-home" role="menuitem"><a href="/">Initiate, Improve &amp; Iterate</a></li>
-    </li>
+    <li class="nav-about" role="menuitem"><a href="/tag/projects/">Projects</a></li>
+    <li class="nav-getting-started" role="menuitem"><a href="/tag/tutorials/">Tutorials</a></li>
+    <li class="nav-try-ghost" role="menuitem"><a href="/tag/blogs/">Blogs</a></li>
 </ul>
 
+
         
-        <span class="homebtn" onclick="openNav()">&#9776;</span>
+        <span class="homebtn" onclick="openNav()"><img src="/assets/images/menu.png" alt="menu_btn" width="40" height="40"></span>
         <div id="myNav" class="overlay">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
@@ -270,7 +265,7 @@ into the {body} of the default.hbs template -->
               <div class="search-container">
                 <form action="/search/index.html" method="get">
                   <a><input type="text" placeholder="Search.." id="search-box" name="query" size="14"></a>
-                  <a><button type="submit"><i class="fa fa-search"></i></button></a>
+                  <a></a>
                 </form>
               </div>
             </a>
@@ -729,7 +724,7 @@ document.getElementById("defaultOpen").click();
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="http://localhost:4000/">Notchlab</a> &copy; 2018</section>
+                <section class="copyright"><a href="http://localhost:4000/">Notchlab</a> &copy; 2019</section>
 <!--
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using

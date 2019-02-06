@@ -1,10 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-31T23:09:15+01:00</updated><id>http://localhost:4000/</id><title type="html">Notchlab - Initiate, Implement &amp;amp; Improve</title><subtitle>&lt;br&gt;Hacking is the mindset - Hack your way!</subtitle><entry><title type="html">Going Your Own Way</title><link href="http://localhost:4000/going-your-own-way/" rel="alternate" type="text/html" title="Going Your Own Way" /><published>2018-12-29T11:18:00+01:00</published><updated>2018-12-29T11:18:00+01:00</updated><id>http://localhost:4000/going-your-own-way</id><content type="html" xml:base="http://localhost:4000/going-your-own-way/">&lt;p&gt;Let your innerself choose the way, and don’t hesitate to walk your way.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-02-06T23:44:06+01:00</updated><id>http://localhost:4000/</id><title type="html">Notchlab - Initiate, Implement &amp;amp; Improve</title><subtitle>&lt;br&gt;Hacking is the mindset - Hack your way!</subtitle><entry><title type="html">How To Set-up Automated Data Pipelines</title><link href="http://localhost:4000/Automated-Data-Pipelines/" rel="alternate" type="text/html" title="How To Set-up Automated Data Pipelines" /><published>2019-02-06T11:18:00+01:00</published><updated>2019-02-06T11:18:00+01:00</updated><id>http://localhost:4000/Automated-Data-Pipelines</id><content type="html" xml:base="http://localhost:4000/Automated-Data-Pipelines/">&lt;p&gt;The Getting Started with Automated Data Pipelines series 2nd event of Professional Skills Series designed by Kaggle.&lt;/p&gt;
+
+&lt;p&gt;It is a set of three notebooks and livestreams (recordings are available) designed to help you get started with creating data pipeline that allow you to automate the process of moving and transforming data.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Day 1: Versioning &amp;amp; Creating Datasets from GitHub Repos
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/rtatman/kerneld4769833fe/&quot;&gt;Notebook&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://youtu.be/Xi140XVOznM&quot;&gt;Livestream&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Day 2: Validation &amp;amp; Creating Datasets from URL’s
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/rtatman/automating-data-pipelines-day-2&quot;&gt;Notebook&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://youtu.be/-wF1hSEQqIc&quot;&gt;Livestream&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Day 3: ETL &amp;amp; Creating Datasets from Kernel Output
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/rtatman/automating-data-pipelines-day-3&quot;&gt;Notebook&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://youtu.be/2pWifnSPN5E&quot;&gt;Livestream&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Hack Kaggle</name></author><category term="tutorials" /><category term="hackkaggle" /><summary type="html">The Getting Started with Automated Data Pipelines series 2nd event of Professional Skills Series designed by Kaggle.</summary></entry><entry><title type="html">Dashboarding with Scheduled Notebooks - How to get it done.</title><link href="http://localhost:4000/Dashboarding-with-Scheduled-Notebooks/" rel="alternate" type="text/html" title="Dashboarding with Scheduled Notebooks - How to get it done." /><published>2019-02-01T11:18:00+01:00</published><updated>2019-02-01T11:18:00+01:00</updated><id>http://localhost:4000/Dashboarding-with-Scheduled-Notebooks</id><content type="html" xml:base="http://localhost:4000/Dashboarding-with-Scheduled-Notebooks/">&lt;p&gt;Want to learn how to combine the speed of spinning up a notebook with the ease of an automatically updating dashboard? Then this is the event for you! Each day covers a different task&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Day 1: Determining what information should be monitored with a dashboard.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/rtatman/dashboarding-with-notebooks-day-1&quot;&gt;Notebook&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=QO2ihJS2QLM&quot;&gt;Livestream Recording&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Day 2: How to create effective dashboards in notebooks
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/rtatman/dashboarding-with-notebooks-day-2-python&quot;&gt;Python Notebook&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/rtatman/dashboarding-with-notebooks-day-2-r&quot;&gt;R Notebook&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=rhi_nexCUMI&quot;&gt;Livestream&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Day 3: Running notebooks with the Kaggle API
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/rtatman/dashboarding-with-notebooks-day-3&quot;&gt;Notebook&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://youtu.be/cdEUEe2scNo&quot;&gt;Livestream&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Day 4: Scheduling notebook runs using cloud services
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/rtatman/dashboarding-with-notebooks-day-4&quot;&gt;Notebook&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://youtu.be/Oujj6nT7etY&quot;&gt;Livestream&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Day 5: Basic testing and validation for dashboarding notebooks,
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/rtatman/dashboarding-with-notebooks-day-5&quot;&gt;Python Notebook&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/rtatman/dashboarding-with-notebooks-day-5-r&quot;&gt;R Notebook&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=H6DcpIykT8E&quot;&gt;Livestream&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/ppjanka/kaggle-prof-skills-1-climate-change-dashboard&quot;&gt;Historical temperature in the US for today’s date &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/alkismaz/dashboarding-day-2-carbon-emissions&quot;&gt;Dashboard tracking world carbon emissions, by country and continent, over time &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/cristianossd/dashboarding-road-weather-information&quot;&gt;An elegant, simple dashboard showing the hourly temperature in Seattle for the last day&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/daemonis/dashboarding-with-scheduled-notebooks-training&quot;&gt;Where and when did people run red lights in Chicago?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/dtthomas/seattle-crisis-data-set-dashboard&quot;&gt;A very thorough dashboard summarizing information on Seattle crisis incidents &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/marlukyanova/sf-restaurant-score-very-simple-dashboard&quot;&gt;The number of San Francisco restaurant inspections per day&lt;/a&gt; (Uses Bokeh for visualizations!)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/usaf091847/nyc-inmates-in-custody-kaggle-class&quot;&gt;Demographic information for currently incarcerated persons in New York&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Hack Kaggle</name></author><category term="tutorials" /><category term="hackkaggle" /><summary type="html">Want to learn how to combine the speed of spinning up a notebook with the ease of an automatically updating dashboard? Then this is the event for you! Each day covers a different task</summary></entry><entry><title type="html">Going Your Own Way</title><link href="http://localhost:4000/going-your-own-way/" rel="alternate" type="text/html" title="Going Your Own Way" /><published>2018-12-29T11:18:00+01:00</published><updated>2018-12-29T11:18:00+01:00</updated><id>http://localhost:4000/going-your-own-way</id><content type="html" xml:base="http://localhost:4000/going-your-own-way/">&lt;p&gt;Let your innerself choose the way, and don’t hesitate to walk it.&lt;/p&gt;
 
 &lt;p&gt;You’ll be tempted to follow the crowd. To not go your own way. Going your own way seems riskier. And sometimes it is. It may cause you to lose some relationships. It may invite criticism and persecution. It may require you to leave some money on the table. Maybe a lot of money.&lt;/p&gt;
 
 &lt;p&gt;But you’re not here to prevent those things from happening. You’re not here to impress people or to see how much money you can make. You’re here to learn something and to be something special.&lt;/p&gt;
 
-&lt;p&gt;That’s what it means to go your own way. It’s about knowing who you are, what you want, and what you’re here to do. You’re not going to be here long. Stop holding back. Put yourself out there.&lt;/p&gt;</content><author><name>Personal Growth</name></author><category term="blogs" /><category term="hackpeace" /><summary type="html">Let your innerself choose the way, and don’t hesitate to walk your way.</summary></entry><entry><title type="html">The Value of Silence</title><link href="http://localhost:4000/the-value-of-silence/" rel="alternate" type="text/html" title="The Value of Silence" /><published>2018-09-02T12:18:00+02:00</published><updated>2018-09-02T12:18:00+02:00</updated><id>http://localhost:4000/the-value-of-silence</id><content type="html" xml:base="http://localhost:4000/the-value-of-silence/">&lt;p&gt;Most of us don’t like silence, because it forces us to confront ourselves. And sometimes what we find staring back is emptiness.&lt;/p&gt;
+&lt;p&gt;That’s what it means to go your own way. It’s about knowing who you are, what you want, and what you’re here to do. You’re not going to be here long. Stop holding back. Put yourself out there.&lt;/p&gt;</content><author><name>Personal Growth</name></author><category term="blogs" /><category term="hackpeace" /><summary type="html">Let your innerself choose the way, and don’t hesitate to walk it.</summary></entry><entry><title type="html">The Value of Silence</title><link href="http://localhost:4000/the-value-of-silence/" rel="alternate" type="text/html" title="The Value of Silence" /><published>2018-09-02T12:18:00+02:00</published><updated>2018-09-02T12:18:00+02:00</updated><id>http://localhost:4000/the-value-of-silence</id><content type="html" xml:base="http://localhost:4000/the-value-of-silence/">&lt;p&gt;Most of us don’t like silence, because it forces us to confront ourselves. And sometimes what we find staring back is emptiness.&lt;/p&gt;
 
 &lt;p&gt;We’re also afraid of silence, because we equate silence with insignificance. We want to be heard and seen. We want to make ourselves relevant. We want tobe somebody in the eyes of others.&lt;/p&gt;
 
@@ -46,27 +111,7 @@
 
 &lt;p&gt;This lack of appreciation comes mainly from a lack of recognition. Most of the time we don’t recognize how fortune we are, because we’re so used to having everything we need.&lt;/p&gt;
 
-&lt;p&gt;Learn to appreciate what you have. Learn to live with less and still be happy. And follow your heart. Not your emotions, but what you know in your heart of hearts is the right thing for you.&lt;/p&gt;</content><author><name>Personal Growth</name></author><category term="blogs" /><category term="hackpeace" /><summary type="html">A lot of our unhappiness comes from the feeling of not belonging. But even when we’re accepted, we don’t necessarily belong. True happiness has to come from outside of the desire to belong.</summary></entry><entry><title type="html">How To Focus</title><link href="http://localhost:4000/how-to-focus/" rel="alternate" type="text/html" title="How To Focus" /><published>2018-02-25T11:18:00+01:00</published><updated>2018-02-25T11:18:00+01:00</updated><id>http://localhost:4000/how-to-focus</id><content type="html" xml:base="http://localhost:4000/how-to-focus/">&lt;p&gt;You can’t concentrate more. You can only concentrate less.&lt;/p&gt;
-
-&lt;p&gt;You can’t try harder. You can only try less.&lt;/p&gt;
-
-&lt;p&gt;What does this mean?&lt;/p&gt;
-
-&lt;p&gt;It means that if you stop thinking about concentrating more, if you stop thinking about trying harder, you’ll do it automatically.&lt;/p&gt;
-
-&lt;p&gt;When we set up two targets — the thing we want to do, and the thing we’re &lt;em&gt;trying&lt;/em&gt; to do to make it happen, we lose focus.&lt;/p&gt;
-
-&lt;p&gt;In other words, trying to concentrate &lt;em&gt;more&lt;/em&gt;, or “trying harder,” actually distracts us from our natural ability to simply be in the moment and do it. In this sense, concentrating more equates to concentrating less and trying harder is equivalent to trying to try.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;The Need To Win&lt;/strong&gt;&lt;/p&gt;
-
-  &lt;p&gt;When an archer is shooting for nothing he has all his skill. If he shoots for a brass buckle he is already nervous. If he shoots for a prize of gold he goes blind or sees two targets — he is out of his mind!&lt;/p&gt;
-
-  &lt;p&gt;His skill has not changed. But the prize divides him. He cares. He thinks more of winning than of shooting — and the need to win drains him of power.&lt;/p&gt;
-
-  &lt;p&gt;~Thomas Merton, &lt;a href=&quot;http://me.dm/r-0XcgLcpkz2?source=email-anon_740cd9c37e3e--publication.newsletter&quot;&gt;The Way of Chuang Tzu&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Personal Growth</name></author><category term="blogs" /><category term="tutorials" /><category term="hackpeace" /><summary type="html">You can’t concentrate more. You can only concentrate less.</summary></entry><entry><title type="html">Keep Doing Your Thing</title><link href="http://localhost:4000/keep-doing-your-thing/" rel="alternate" type="text/html" title="Keep Doing Your Thing" /><published>2018-01-23T11:18:00+01:00</published><updated>2018-01-23T11:18:00+01:00</updated><id>http://localhost:4000/keep-doing-your-thing</id><content type="html" xml:base="http://localhost:4000/keep-doing-your-thing/">&lt;p&gt;Don’t waste time trying to win over your detractors. Use that time to keep doing your thing.&lt;/p&gt;
+&lt;p&gt;Learn to appreciate what you have. Learn to live with less and still be happy. And follow your heart. Not your emotions, but what you know in your heart of hearts is the right thing for you.&lt;/p&gt;</content><author><name>Personal Growth</name></author><category term="blogs" /><category term="hackpeace" /><summary type="html">A lot of our unhappiness comes from the feeling of not belonging. But even when we’re accepted, we don’t necessarily belong. True happiness has to come from outside of the desire to belong.</summary></entry><entry><title type="html">Keep Doing Your Thing</title><link href="http://localhost:4000/keep-doing-your-thing/" rel="alternate" type="text/html" title="Keep Doing Your Thing" /><published>2018-01-23T11:18:00+01:00</published><updated>2018-01-23T11:18:00+01:00</updated><id>http://localhost:4000/keep-doing-your-thing</id><content type="html" xml:base="http://localhost:4000/keep-doing-your-thing/">&lt;p&gt;Don’t waste time trying to win over your detractors. Use that time to keep doing your thing.&lt;/p&gt;
 
 &lt;p&gt;Sometimes criticism is justified. And sometimes it’s envy, ignorance, or fear. Criticism often comes from not seeing the whole picture. We’re often convinced that we see the whole picture, but usually we see very little.&lt;/p&gt;
 

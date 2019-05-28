@@ -133,7 +133,17 @@
       #myBtn:hover {
         opacity:0.7;
       }      
-  
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}  
 </style>
 
 
@@ -144,7 +154,7 @@
         <div id="myNav" class="overlay">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
-            <a href="/"><img src="/assets/images/logo.png" alt="menu_btn" width="160"></a>
+            <a class="hover01" href="/"><figure><img src="/assets/images/logo.png" alt="menu_btn" width="160"></figure></a>
             <a href="/articles/">Articles</a>
             <a href="/about/">About</a>
 <!--
@@ -155,11 +165,10 @@
             <b>----------</b>
             <b>Share this on:</b>
             <a class="_share_bt" href="https://twitter.com/share?text=Tag%3A+javascript&amp;url=tag/javascript"
-                onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><img src="/assets/images/facebook.png" width="45" height="45">
+                onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><i class="fab fa-2x fa-twitter"></i>
             </a>
-            <b></b>
             <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=tag/javascript"
-                onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><img src="/assets/images/twitter.png" width="45" height="45">
+                onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><i class="fab fa-2x fa-facebook"></i>
             </a>
           </div>
         </div>  
@@ -220,30 +229,6 @@
 <h1>Tag: javascript</h1>
     <div class="card-columns m-3 mt-5">
 
-      
-
-	
-	
-
-	<div class="wow animated fadeIn" data-wow-delay=".15s">
-	  <a href="/articles/learn-react-js" class="project card text-dark">
-	    
-	    <div class="card-body">
-	      <h5 class="card-title">Learn React.js in 5 minutes</h5>
-	      <p class="card-text">A quick introduction to the popular JavaScript library.</p>
-	      <p class="card-text">
-		
-		  <span class="badge badge-pill text-primary border border-primary">react</span>
-		
-		  <span class="badge badge-pill text-primary border border-primary">javascript</span>
-		
-		  <span class="badge badge-pill text-primary border border-primary">web_development</span>
-		
-	      </p>
-	    </div>
-	  </a>
-	</div>
-	
       
 
 	

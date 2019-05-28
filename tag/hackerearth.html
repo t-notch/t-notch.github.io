@@ -133,7 +133,17 @@
       #myBtn:hover {
         opacity:0.7;
       }      
-  
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}  
 </style>
 
 
@@ -144,7 +154,7 @@
         <div id="myNav" class="overlay">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
-            <a href="/"><img src="/assets/images/logo.png" alt="menu_btn" width="160"></a>
+            <a class="hover01" href="/"><figure><img src="/assets/images/logo.png" alt="menu_btn" width="160"></figure></a>
             <a href="/articles/">Articles</a>
             <a href="/about/">About</a>
 <!--
@@ -154,12 +164,11 @@
 -->
             <b>----------</b>
             <b>Share this on:</b>
-            <a class="_share_bt" href="https://twitter.com/share?text=How+to+undo+your+git+failure%3F&amp;url=articles/how-to-undo-your-git-failure"
-                onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><img src="/assets/images/facebook.png" width="45" height="45">
+            <a class="_share_bt" href="https://twitter.com/share?text=Tag%3A+hackerearth&amp;url=tag/hackerearth"
+                onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><i class="fab fa-2x fa-twitter"></i>
             </a>
-            <b></b>
-            <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=articles/how-to-undo-your-git-failure"
-                onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><img src="/assets/images/twitter.png" width="45" height="45">
+            <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=tag/hackerearth"
+                onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><i class="fab fa-2x fa-facebook"></i>
             </a>
           </div>
         </div>  
@@ -215,122 +224,43 @@
         }    
     </script>
 
-  <div class="col-lg-10 mx-auto mt-5 article">
-  <h1><b>How to undo your git failure?</b></h1>
+  <div class="post">
+<br>
+<h1>Tag: hackerearth</h1>
+    <div class="card-columns m-3 mt-5">
 
-  <p class="article-metadata text-muted">
-    25 September 2015 -  
-    <b>
-    
-    
-      less than 1 min read time
-    
-    </b>
+      
 
-    <br>
+	
+	
 
-    
-      Tags: 
-      <span>[
-        
-          
-          <a href="/tag/external"><code class="highligher-rouge"><nobr>external</nobr></code>&nbsp;</a>
-        
-          
-          <a href="/tag/post"><code class="highligher-rouge"><nobr>post</nobr></code>&nbsp;</a>
-        
-          
-          <a href="/tag/git"><code class="highligher-rouge"><nobr>git</nobr></code>&nbsp;</a>
-        
-      ]</span>
-    
+	<div class="wow animated fadeIn" data-wow-delay=".15s">
+	  <a href="https://www.hackerearth.com/challenges/competitive/on-the-plague-trail-hackerearth-machine-learning-challenge/" class="project card text-dark">
+	    
+	      <img class="card-img-top" src="https://media-fastly.hackerearth.com/media/hackathon/on-the-plague-trail-hackerearth-machine-learning-challenge/images/bebb071477-Plague.gif" alt="Card image cap">
+	    
+	    <div class="card-body">
+	      <h5 class="card-title">May 2019 - Monthly Machine Learning challenge</h5>
+	      <p class="card-text">On the plague trail - problem is based on disaster management  HackerEarth’s monthly Machine Learning challenge in May 2019 -</p>
+	      <p class="card-text">
+		
+		  <span class="badge badge-pill text-primary border border-primary">challenge</span>
+		
+		  <span class="badge badge-pill text-primary border border-primary">machine_learning</span>
+		
+		  <span class="badge badge-pill text-primary border border-primary">hackerearth</span>
+		
+	      </p>
+	    </div>
+	  </a>
+	</div>
+	
+      
 
-  </p>
-
-  
-
-
-  <footer>
-    This Article is <b>open source</b>. Noticed a typo? </br>
-    Or something unclear? Improve it on <a href="http://github.com/YoussefRaafatNasry/portfolYOU/edit/gh-pages/_posts/2015-09-25-how-to-undo-your-git-failure.md">GitHub</a>.
-  </footer>
-
-
-    <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=168442633825943";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-
-  <!--
-<div class="buttons">
-<div style="width: 100%">
-    <button class="buttons1" onclick="openComment(event, 'Facebook')" id="defaultOpen"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></button>
-    <button class="buttons2" onclick="openComment(event, 'Disqus')"><i class="fa fa-commenting-o fa-3x" aria-hidden="true"></i></button>
-</div>
-</div>
--->
-<div id="Facebook" class="tabcontent">
-    <div class="fb-comments" data-href="http://localhost:4000/articles/how-to-undo-your-git-failure" data-width="auto" data-numposts="10"></div>
-</div>
-<!--
-<div id="Disqus" class="tabcontent">
-    <div class="comment-wrapper">
-        
     </div>
 </div>
-<div id="Google+" class="tabcontent">
-    <script src="https://apis.google.com/js/plusone.js">
-    </script>
-    <div id="google_comments"></div>
-    <script>
-    gapi.comments.render('google_comments', {
-        href: window.location,
-        width: '900',
-        height: '200',
-        first_party_property: 'BLOGGER',
-        view_type: 'FILTERED_POSTMOD'
-    });
-    </script>
-</div>
--->
-<script>
-function openComment(evt, CommentName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(CommentName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-<!--
-<style>
-.buttons {
-    background-color: black; /* Green */
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-</style>
--->
+<hr>
 
-
-</div>
 
   </main>
 

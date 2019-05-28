@@ -1,27 +1,35 @@
 [
   
     {
-      "title"    : "Digital Minimalism",
+      "title"    : "Build a side project, build an empire",
       "category" : "",
-      "tags"     : "social_media, minimalism, technology",
-      "url"      : "/articles/digital-minimalism",
-      "date"     : "2019-02-20 00:00:00 +0100"
+      "tags"     : "start_up, life_lessons",
+      "url"      : "/https://medium.com/swlh/build-a-side-project-build-an-empire-d3ffa211589c",
+      "date"     : "2019-05-28 00:00:00 +0200"
     } ,
   
     {
-      "title"    : "Learn React.js in 5 minutes",
+      "title"    : "A Machine Learning Course with Python",
       "category" : "",
-      "tags"     : "react, javascript, web_development",
-      "url"      : "/articles/learn-react-js",
-      "date"     : "2019-02-15 00:00:00 +0100"
+      "tags"     : "course, machine_learning, python",
+      "url"      : "/https://github.com/machinelearningmindset/machine-learning-course",
+      "date"     : "2019-05-19 00:00:00 +0200"
     } ,
   
     {
-      "title"    : "Clean Coding",
+      "title"    : "May 2019 - Monthly Machine Learning challenge",
       "category" : "",
-      "tags"     : "software_development, clean_code",
-      "url"      : "/articles/clean-coding",
-      "date"     : "2018-12-10 00:00:00 +0100"
+      "tags"     : "challenge, machine_learning, hackerearth",
+      "url"      : "/https://www.hackerearth.com/challenges/competitive/on-the-plague-trail-hackerearth-machine-learning-challenge/",
+      "date"     : "2019-05-18 00:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "An introduction to Reinforcement Learning",
+      "category" : "",
+      "tags"     : "course, reinforcement_learning",
+      "url"      : "/https://simoninithomas.github.io/Deep_reinforcement_learning_Course/",
+      "date"     : "2019-05-12 00:00:00 +0200"
     } ,
   
     {
@@ -70,14 +78,6 @@
       "tags"     : "version_control",
       "url"      : "/articles/what-is-version-control",
       "date"     : "2016-02-09 00:00:00 +0100"
-    } ,
-  
-    {
-      "title"    : "How to undo your git failure?",
-      "category" : "",
-      "tags"     : "external, post, git",
-      "url"      : "/https://blog.usejournal.com/how-to-undo-your-git-failure-b76e31ecac74",
-      "date"     : "2015-09-25 00:00:00 +0200"
     } 
   
 ]

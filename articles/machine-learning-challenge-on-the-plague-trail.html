@@ -133,7 +133,17 @@
       #myBtn:hover {
         opacity:0.7;
       }      
-  
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}  
 </style>
 
 
@@ -144,7 +154,7 @@
         <div id="myNav" class="overlay">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
-            <a href="/"><img src="/assets/images/logo.png" alt="menu_btn" width="160"></a>
+            <a class="hover01" href="/"><figure><img src="/assets/images/logo.png" alt="menu_btn" width="160"></figure></a>
             <a href="/articles/">Articles</a>
             <a href="/about/">About</a>
 <!--
@@ -154,12 +164,11 @@
 -->
             <b>----------</b>
             <b>Share this on:</b>
-            <a class="_share_bt" href="https://twitter.com/share?text=Tag%3A+tag&amp;url=tag/tag"
-                onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><img src="/assets/images/facebook.png" width="45" height="45">
+            <a class="_share_bt" href="https://twitter.com/share?text=May+2019+-+Monthly+Machine+Learning+challenge&amp;url=articles/machine-learning-challenge-on-the-plague-trail"
+                onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><i class="fab fa-2x fa-twitter"></i>
             </a>
-            <b></b>
-            <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=tag/tag"
-                onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><img src="/assets/images/twitter.png" width="45" height="45">
+            <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=articles/machine-learning-challenge-on-the-plague-trail"
+                onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><i class="fab fa-2x fa-facebook"></i>
             </a>
           </div>
         </div>  
@@ -215,17 +224,150 @@
         }    
     </script>
 
-  <div class="post">
+  <div class="col-lg-10 mx-auto mt-5 article">
+  <h1><b>May 2019 - Monthly Machine Learning challenge</b></h1>
+
+  <p class="article-metadata text-muted">
+    18 May 2019 -  
+    <b>
+    
+    
+      less than 1 min read time
+    
+    </b>
+
+    <br>
+
+    
+      Tags: 
+      <span>[
+        
+          
+          <a href="/tag/challenge"><code class="highligher-rouge"><nobr>challenge</nobr></code>&nbsp;</a>
+        
+          
+          <a href="/tag/machine_learning"><code class="highligher-rouge"><nobr>machine_learning</nobr></code>&nbsp;</a>
+        
+          
+          <a href="/tag/hackerearth"><code class="highligher-rouge"><nobr>hackerearth</nobr></code>&nbsp;</a>
+        
+      ]</span>
+    
+
+  </p>
+
+  
+
+  
+<br>  
+<p align="right">
+    <mark class="px-3">Share this on:</mark>
+
+    <a class="_share_bt" href="https://twitter.com/share?text=May+2019+-+Monthly+Machine+Learning+challenge&amp;url=articles/machine-learning-challenge-on-the-plague-trail"
+        onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><i class="fab fa-2x fa-twitter"></i>
+    </a>&emsp;
+    <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=articles/machine-learning-challenge-on-the-plague-trail"
+        onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><i class="fab fa-2x fa-facebook"></i>
+    </a>&emsp;&emsp;
+</p>
 <br>
-<h1>Tag: tag</h1>
-    <div class="card-columns m-3 mt-5">
+  
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://notchlab.us20.list-manage.com/subscribe/post?u=a47bd5509f3812badf185d867&amp;id=a145eb2f1e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Subscribe! Get all the latest posts delivered straight to your inbox</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a47bd5509f3812badf185d867_a145eb2f1e" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
 
-      
+<!--End mc_embed_signup-->
 
+    <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=168442633825943";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!--
+<div class="buttons">
+<div style="width: 100%">
+    <button class="buttons1" onclick="openComment(event, 'Facebook')" id="defaultOpen"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></button>
+    <button class="buttons2" onclick="openComment(event, 'Disqus')"><i class="fa fa-commenting-o fa-3x" aria-hidden="true"></i></button>
+</div>
+</div>
+-->
+<div id="Facebook" class="tabcontent">
+    <div class="fb-comments" data-href="http://localhost:4000/articles/machine-learning-challenge-on-the-plague-trail" data-width="auto" data-numposts="10"></div>
+</div>
+<!--
+<div id="Disqus" class="tabcontent">
+    <div class="comment-wrapper">
+        
     </div>
 </div>
-<hr>
+<div id="Google+" class="tabcontent">
+    <script src="https://apis.google.com/js/plusone.js">
+    </script>
+    <div id="google_comments"></div>
+    <script>
+    gapi.comments.render('google_comments', {
+        href: window.location,
+        width: '900',
+        height: '200',
+        first_party_property: 'BLOGGER',
+        view_type: 'FILTERED_POSTMOD'
+    });
+    </script>
+</div>
+-->
+<script>
+function openComment(evt, CommentName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(CommentName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<!--
+<style>
+.buttons {
+    background-color: black; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+</style>
+-->
 
+
+</div>
 
   </main>
 

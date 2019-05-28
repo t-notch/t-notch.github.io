@@ -133,7 +133,17 @@
       #myBtn:hover {
         opacity:0.7;
       }      
-  
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}  
 </style>
 
 
@@ -144,7 +154,7 @@
         <div id="myNav" class="overlay">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
-            <a href="/"><img src="/assets/images/logo.png" alt="menu_btn" width="160"></a>
+            <a class="hover01" href="/"><figure><img src="/assets/images/logo.png" alt="menu_btn" width="160"></figure></a>
             <a href="/articles/">Articles</a>
             <a href="/about/">About</a>
 <!--
@@ -154,12 +164,11 @@
 -->
             <b>----------</b>
             <b>Share this on:</b>
-            <a class="_share_bt" href="https://twitter.com/share?text=Tag%3A+clean_code&amp;url=tag/clean_code"
-                onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><img src="/assets/images/facebook.png" width="45" height="45">
+            <a class="_share_bt" href="https://twitter.com/share?text=Tag%3A+reinforcement_learning&amp;url=tag/reinforcement_learning"
+                onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><i class="fab fa-2x fa-twitter"></i>
             </a>
-            <b></b>
-            <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=tag/clean_code"
-                onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><img src="/assets/images/twitter.png" width="45" height="45">
+            <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=tag/reinforcement_learning"
+                onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><i class="fab fa-2x fa-facebook"></i>
             </a>
           </div>
         </div>  
@@ -217,7 +226,7 @@
 
   <div class="post">
 <br>
-<h1>Tag: clean_code</h1>
+<h1>Tag: reinforcement_learning</h1>
     <div class="card-columns m-3 mt-5">
 
       
@@ -226,16 +235,18 @@
 	
 
 	<div class="wow animated fadeIn" data-wow-delay=".15s">
-	  <a href="/articles/clean-coding" class="project card text-dark">
+	  <a href="https://simoninithomas.github.io/Deep_reinforcement_learning_Course/" class="project card text-dark">
+	    
+	      <img class="card-img-top" src="https://simoninithomas.github.io/Deep_reinforcement_learning_Course/assets/img/DRLC%20Environments.jpg" alt="Card image cap">
 	    
 	    <div class="card-body">
-	      <h5 class="card-title">Clean Coding</h5>
-	      <p class="card-text">These four “clean code” tips will dramatically improve your engineering team’s productivity</p>
+	      <h5 class="card-title">An introduction to Reinforcement Learning</h5>
+	      <p class="card-text">This course is a series of articles and videos where you'll master the skills and architectures you need, to become a deep reinforcement learning expert.</p>
 	      <p class="card-text">
 		
-		  <span class="badge badge-pill text-primary border border-primary">software_development</span>
+		  <span class="badge badge-pill text-primary border border-primary">course</span>
 		
-		  <span class="badge badge-pill text-primary border border-primary">clean_code</span>
+		  <span class="badge badge-pill text-primary border border-primary">reinforcement_learning</span>
 		
 	      </p>
 	    </div>

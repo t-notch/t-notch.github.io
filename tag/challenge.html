@@ -133,7 +133,17 @@
       #myBtn:hover {
         opacity:0.7;
       }      
-  
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}  
 </style>
 
 
@@ -144,7 +154,7 @@
         <div id="myNav" class="overlay">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
-            <a href="/"><img src="/assets/images/logo.png" alt="menu_btn" width="160"></a>
+            <a class="hover01" href="/"><figure><img src="/assets/images/logo.png" alt="menu_btn" width="160"></figure></a>
             <a href="/articles/">Articles</a>
             <a href="/about/">About</a>
 <!--
@@ -154,12 +164,11 @@
 -->
             <b>----------</b>
             <b>Share this on:</b>
-            <a class="_share_bt" href="https://twitter.com/share?text=Tag%3A+technology&amp;url=tag/technology"
-                onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><img src="/assets/images/facebook.png" width="45" height="45">
+            <a class="_share_bt" href="https://twitter.com/share?text=Tag%3A+challenge&amp;url=tag/challenge"
+                onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><i class="fab fa-2x fa-twitter"></i>
             </a>
-            <b></b>
-            <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=tag/technology"
-                onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><img src="/assets/images/twitter.png" width="45" height="45">
+            <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=tag/challenge"
+                onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><i class="fab fa-2x fa-facebook"></i>
             </a>
           </div>
         </div>  
@@ -217,7 +226,7 @@
 
   <div class="post">
 <br>
-<h1>Tag: technology</h1>
+<h1>Tag: challenge</h1>
     <div class="card-columns m-3 mt-5">
 
       
@@ -226,18 +235,20 @@
 	
 
 	<div class="wow animated fadeIn" data-wow-delay=".15s">
-	  <a href="/articles/digital-minimalism" class="project card text-dark">
+	  <a href="https://www.hackerearth.com/challenges/competitive/on-the-plague-trail-hackerearth-machine-learning-challenge/" class="project card text-dark">
+	    
+	      <img class="card-img-top" src="https://media-fastly.hackerearth.com/media/hackathon/on-the-plague-trail-hackerearth-machine-learning-challenge/images/bebb071477-Plague.gif" alt="Card image cap">
 	    
 	    <div class="card-body">
-	      <h5 class="card-title">Digital Minimalism</h5>
-	      <p class="card-text">Minimalism is the art of knowing how much is just enough. Digital minimalism applies this idea to our personal technology. It’s the key to living a focused life in an increasingly noisy world.</p>
+	      <h5 class="card-title">May 2019 - Monthly Machine Learning challenge</h5>
+	      <p class="card-text">On the plague trail - problem is based on disaster management  HackerEarth’s monthly Machine Learning challenge in May 2019 -</p>
 	      <p class="card-text">
 		
-		  <span class="badge badge-pill text-primary border border-primary">social_media</span>
+		  <span class="badge badge-pill text-primary border border-primary">challenge</span>
 		
-		  <span class="badge badge-pill text-primary border border-primary">minimalism</span>
+		  <span class="badge badge-pill text-primary border border-primary">machine_learning</span>
 		
-		  <span class="badge badge-pill text-primary border border-primary">technology</span>
+		  <span class="badge badge-pill text-primary border border-primary">hackerearth</span>
 		
 	      </p>
 	    </div>

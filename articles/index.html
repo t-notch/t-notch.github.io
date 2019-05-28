@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+
+<html lang="en" class="h-100">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=""Don’t be scared to invest time and effort into something that truly makes you tick. It won’t distract you or tire you out; it will energize you."">
+
+  <title>NotchLab - Learn, Hack, Disrupt</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+  
+  
+
+
+
+
+
+
+  
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+
+</head>
+
+
+<body class="d-flex flex-column h-100">
+  <main class="flex-shrink-0 container mt-5">
+  <style>
+  
+.homebtn{
+    cursor:pointer;
+    position:fixed;
+    z-index: 1110;
+    right:10px;
+    top:55px;
+    opacity:0.6;
+    }
+.homebtn:hover {
+        opacity:0.8;
+      }   
+      
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1111;
+    top: 0;
+    right: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.overlay b {
+    padding: 6px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {  font-size: 20px;
+                padding: 6px;}
+  .overlay b {font-size: 15px;
+                padding: 4px;}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 10px;
+    right: 5px;
+  }
+}
+
+#_share_bt {
+  background-color: transparent;
+  margin-right: 7px;
+  }
+
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 0px;
+        right: -5px;
+        z-index: 9999;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        opacity:0.5;
+        cursor: pointer;
+      }
+
+      #myBtn:hover {
+        opacity:0.7;
+      }      
+  
+</style>
+
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="/assets/images/chevron_round_black.png" alt="menu_btn" width="60" height="60">
+    </button>
+        <span class="homebtn" onclick="openNav()"><img src="/assets/images/menu.png" alt="menu_btn" width="35" height="35"></span>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="/"><img src="/assets/images/logo.png" alt="menu_btn" width="160"></a>
+            <a href="/articles/">Articles</a>
+            <a href="/about/">About</a>
+<!--
+            <a href="https://www.youtube.com/user/nttputus">
+                <i class="fas fa-2x fa-video"></i>
+            </a>
+-->
+            <b>----------</b>
+            <b>Share this on:</b>
+            <a class="_share_bt" href="https://twitter.com/share?text=Articles&amp;url=articles/"
+                onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><img src="/assets/images/facebook.png" width="45" height="45">
+            </a>
+            <b></b>
+            <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=articles/"
+                onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><img src="/assets/images/twitter.png" width="45" height="45">
+            </a>
+          </div>
+        </div>  
+  <a class="navbar-brand" href="/"><img src="/assets/images/logo_dark.png" height="30"></a>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="/articles">Articles</a>
+          <a class="nav-item nav-link" href="/about">About</a>
+<!--
+            <a class="social facebook mx-2" href="https://www.youtube.com/user/nttputus">
+                <i class="fas fa-2x fa-video"></i>
+            </a>
+-->
+    </div>
+  </div>
+
+</nav>
+
+
+
+<script>
+    var body_myNav = document.getElementById('myNav');
+    body_myNav.addEventListener("click", function (event) 
+    {
+            document.getElementById("myNav").style.width = "0%";
+    }, false);
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+</script>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        //// When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          var $target = $('html,body');
+          $target.animate({scrollTop: 0}, 500);
+        }    
+    </script>
+
+  <!-- Simple-Jekyll-Search https://github.com/christian-fei/Simple-Jekyll-Search -->
+
+<div class="input-group mt-5 px-3">
+  <input id="search-input" type="text" class="form-control search-box" placeholder="Search articles..">
+  <div class="input-group-append">
+    <span class="input-group-text border border-primary bg-primary text-white"><i class="fas fa-search"></i></span>
+  </div>
+</div>
+<ul class="px-3" id="results-container"></ul>
+<div class="card-columns m-3 mt-5">
+
+  
+
+    
+    
+
+    <div class="wow animated fadeIn" data-wow-delay=".15s">
+      <a href="/articles/digital-minimalism" class="project card text-dark">
+        
+        <div class="card-body">
+          <h5 class="card-title">Digital Minimalism</h5>
+          <p class="card-text">Minimalism is the art of knowing how much is just enough. Digital minimalism applies this idea to our personal technology. It’s the key to living a focused life in an increasingly noisy world.</p>
+          <p class="card-text">
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">social_media</span>
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">minimalism</span>
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">technology</span>
+            
+          </p>
+        </div>
+      </a>
+    </div>
+    
+  
+
+    
+    
+
+    <div class="wow animated fadeIn" data-wow-delay=".15s">
+      <a href="/articles/learn-react-js" class="project card text-dark">
+        
+        <div class="card-body">
+          <h5 class="card-title">Learn React.js in 5 minutes</h5>
+          <p class="card-text">A quick introduction to the popular JavaScript library.</p>
+          <p class="card-text">
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">react</span>
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">javascript</span>
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">web_development</span>
+            
+          </p>
+        </div>
+      </a>
+    </div>
+    
+  
+
+    
+    
+
+    <div class="wow animated fadeIn" data-wow-delay=".15s">
+      <a href="/articles/clean-coding" class="project card text-dark">
+        
+        <div class="card-body">
+          <h5 class="card-title">Clean Coding</h5>
+          <p class="card-text">These four “clean code” tips will dramatically improve your engineering team’s productivity</p>
+          <p class="card-text">
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">software_development</span>
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">clean_code</span>
+            
+          </p>
+        </div>
+      </a>
+    </div>
+    
+  
+
+    
+    
+
+    <div class="wow animated fadeIn" data-wow-delay=".15s">
+      <a href="/articles/what-the-heck-is-a-callback" class="project card text-dark">
+        
+        <div class="card-body">
+          <h5 class="card-title">What the heck is a Callback?</h5>
+          <p class="card-text">Learn and understand the basics of callbacks in just 6 minutes with easy examples.</p>
+          <p class="card-text">
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">javascript</span>
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">nodejs</span>
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">web_development</span>
+            
+          </p>
+        </div>
+      </a>
+    </div>
+    
+  
+
+    
+    
+
+    <div class="wow animated fadeIn" data-wow-delay=".15s">
+      <a href="/articles/four-lessons-after-eleven-years-in-silicon-valley" class="project card text-dark">
+        
+        <div class="card-body">
+          <h5 class="card-title">4 Lessons After 11 Years in Silicon Valley</h5>
+          <p class="card-text">On the realities of opportunity, success, reputation, and relationships in tech.</p>
+          <p class="card-text">
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">lessons</span>
+            
+          </p>
+        </div>
+      </a>
+    </div>
+    
+  
+
+    
+    
+
+    <div class="wow animated fadeIn" data-wow-delay=".15s">
+      <a href="/articles/github-flow" class="project card text-dark">
+        
+        <div class="card-body">
+          <h5 class="card-title">GitHub Flow</h5>
+          <p class="card-text">GitHub Flow is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly. This guide explains how and why GitHub Flow works.</p>
+          <p class="card-text">
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">gitHub</span>
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">workflow</span>
+            
+          </p>
+        </div>
+      </a>
+    </div>
+    
+  
+
+    
+    
+
+    <div class="wow animated fadeIn" data-wow-delay=".15s">
+      <a href="/articles/a-better-hello-world" class="project card text-dark">
+        
+        <div class="card-body">
+          <h5 class="card-title">A better Hello World</h5>
+          <p class="card-text">A different “hello world” to demonstrate language features better.</p>
+          <p class="card-text">
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">software_development</span>
+            
+          </p>
+        </div>
+      </a>
+    </div>
+    
+  
+
+    
+    
+
+    <div class="wow animated fadeIn" data-wow-delay=".15s">
+      <a href="/articles/do-not-go-gentle-into-that-good-night" class="project card text-dark">
+        
+        <div class="card-body">
+          <h5 class="card-title">Do not go gentle into that good night</h5>
+          <p class="card-text"></p>
+          <p class="card-text">
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">poetry</span>
+            
+          </p>
+        </div>
+      </a>
+    </div>
+    
+  
+
+    
+    
+
+    <div class="wow animated fadeIn" data-wow-delay=".15s">
+      <a href="/articles/what-is-version-control" class="project card text-dark">
+        
+        <div class="card-body">
+          <h5 class="card-title">What is version control?</h5>
+          <p class="card-text">Benefits of version control and version control systems.</p>
+          <p class="card-text">
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">version_control</span>
+            
+          </p>
+        </div>
+      </a>
+    </div>
+    
+  
+
+    
+    
+
+    <div class="wow animated fadeIn" data-wow-delay=".15s">
+      <a href="https://blog.usejournal.com/how-to-undo-your-git-failure-b76e31ecac74" class="project card text-dark">
+        
+          <img class="card-img-top" src="https://www.infotyke.com/wp-content/uploads/2018/02/web-development-service-infotyke.png" alt="Card image cap">
+        
+        <div class="card-body">
+          <h5 class="card-title">How to undo your git failure?</h5>
+          <p class="card-text">Using `git reflog` and `git reset` to save your code.</p>
+          <p class="card-text">
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">external</span>
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">post</span>
+            
+              
+              <span class="badge badge-pill text-primary border border-primary">git</span>
+            
+          </p>
+        </div>
+      </a>
+    </div>
+    
+  
+
+</div>
+
+  </main>
+
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>T-Notch</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center">
+
+  
+  <a class="social twitter mx-1" href="https://www.twitter.com/notch_lab">
+    <i class="fab fa-1x fa-twitter"></i>
+  </a>
+  
+
+  
+  <a class="social facebook mx-1" href="https://www.youtube.com/user/nttputus">
+    <i class="fab fa-1x fa-youtube"></i>
+  </a>
+  
+
+  
+  <a class="social email mx-1" href="mailto:t.notch@zoho.eu">
+    <i class="fas fa-1x fa-envelope"></i>
+  </a>
+  
+
+  
+  <a class="social github mx-1" href="https://www.github.com/t-notch">
+    <i class="fab fa-1x fa-github"></i>
+  </a>
+  
+
+  
+  <a class="social linkedin mx-1" href="https://www.linkedin.com/in/tienthanh">
+    <i class="fab fa-1x fa-linkedin-in"></i>
+  </a>
+  
+
+</div>
+
+
+</footer>
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Card Animation jQuery -->
+<script src="/assets/js/card-animation.js"></script>
+
+<!-- Simple-Jekyll-Search CDN -->
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action">{title}</a>',
+        noResultsText: '<li class="list-group-item">No results found</li>',
+        json: '/search.json'
+      })
+</script>
+
+</body>
+
+</html>

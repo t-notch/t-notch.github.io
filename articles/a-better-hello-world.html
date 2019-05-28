@@ -154,11 +154,11 @@
 -->
             <b>----------</b>
             <b>Share this on:</b>
-            <a class="_share_bt" href="https://twitter.com/share?text=About&amp;url=about/"
+            <a class="_share_bt" href="https://twitter.com/share?text=A+better+Hello+World&amp;url=articles/a-better-hello-world"
                 onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><img src="/assets/images/facebook.png" width="45" height="45">
             </a>
             <b></b>
-            <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=about/"
+            <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=articles/a-better-hello-world"
                 onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><img src="/assets/images/twitter.png" width="45" height="45">
             </a>
           </div>
@@ -216,49 +216,153 @@
     </script>
 
   <div class="col-lg-10 mx-auto mt-5 article">
+  <h1><b>A better Hello World</b></h1>
 
-  <h1 id="about-me"><strong>About Me</strong></h1>
-<p>–</p>
+  <p class="article-metadata text-muted">
+    23 July 2016 -  
+    <b>
+    
+    
+      less than 1 min read time
+    
+    </b>
 
-<p>Hi I am <strong>T-Notch</strong>,</p>
+    <br>
+
+    
+      Tags: 
+      <span>[
+        
+          
+          <a href="/tag/software_development"><code class="highligher-rouge"><nobr>software_development</nobr></code>&nbsp;</a>
+        
+      ]</span>
+    
+
+  </p>
+
+  <p>Source: <a href="https://ricostacruz.com/til/a-better-hello-world">RICO STA. CRUZ</a></p>
+
+<p>The “Hello world” program is usually the first introduction to any programming language. It looks like this in the C programming language:</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/* hello.c */</span>
+<span class="cp">#import &lt;stdio.h&gt;
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"Hello, world!"</span><span class="p">);</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>It demonstrates the minimum amount you need to write a C program. In more modern languages however, this example isn’t as useful anymore. Here’s the same example in Python:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># hello.py</span>
+<span class="k">print</span> <span class="s">"Hello, world!"</span>
+</code></pre></div></div>
+
+<h2 id="a-better-hello-world">A better hello world</h2>
+
+<p>In today’s world of more succint programming languages, we need a different “hello world” to demonstrate language features better. Here’s what I propose:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// hello.js
+function getGreeting (name) {
+  return `Hello, ${name}!`
+}
+
+const message = getGreeting('world')
+console.log(message)
+</code></pre></div></div>
+
+<p>This simple example demonstrates a few more things than printing strings:</p>
 
 <ul>
-  <li>
-    <p><strong>About me</strong>, I am an engineer and DIY-tech enthusiast. Outside time at work and for family, I enjoy learning, hacking and creating things.</p>
-
-    <p>I’m interested in robotics, AI, computer vision and have spent all my professional life in research and engineering. I’m big fan of open source and “learning by example”. For more about my profile, please check my <a href="/resume">resume</a>.</p>
-
-    <p>Welcome to my blog, if you share the same hobbies, subscribe to this blog or contact me directly by email or social platforms below.</p>
-  </li>
-  <li>
-    <p><strong>About this blog</strong>, this blog dedicated to share my journey into field of high-tech: robotics, AI, VR-AR, ioT, …</p>
-
-    <p>I’m here to share tips, tricks and hacks I’ve learned everyday when working in my side-projects, also my views and discussions on topics that I’m passionate about.</p>
-  </li>
-  <li>
-    <p><strong>Contact me</strong>, if you have any question or need help for an interesting project</p>
-
-    <ul>
-      <li>
-        <p><a href="mailto:t.notch@zoho.eu">
-  <i class="fas fa-1x fa-envelope"></i>
-</a> - Email</p>
-      </li>
-      <li>
-        <p><a href="https://www.twitter.com/notch_lab">
-  <i class="fab fa-1x fa-twitter"></i>
-</a> - Twitter</p>
-      </li>
-      <li>
-        <p><a href="https://www.linkedin.com/tienthanh">
-  <i class="fab fa-1x fa-linkedin"></i>
-</a> - Linkedin</p>
-      </li>
-    </ul>
-  </li>
+  <li>How to write a function with an argument</li>
+  <li>Returning values from functions</li>
+  <li>How to use variables</li>
+  <li>The naming convention for functions (camelCase versus snake_case)</li>
+  <li>String concatenation</li>
+  <li>Comments</li>
 </ul>
 
-<p><img src="/images/contact-us.gif" alt="contact-us" /></p>
+
+  <footer>
+    This Article is <b>open source</b>. Noticed a typo? </br>
+    Or something unclear? Improve it on <a href="http://github.com/YoussefRaafatNasry/portfolYOU/edit/gh-pages/_posts/2016-07-23-a-better-hello-world.md">GitHub</a>.
+  </footer>
+
+
+    <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=168442633825943";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!--
+<div class="buttons">
+<div style="width: 100%">
+    <button class="buttons1" onclick="openComment(event, 'Facebook')" id="defaultOpen"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></button>
+    <button class="buttons2" onclick="openComment(event, 'Disqus')"><i class="fa fa-commenting-o fa-3x" aria-hidden="true"></i></button>
+</div>
+</div>
+-->
+<div id="Facebook" class="tabcontent">
+    <div class="fb-comments" data-href="http://localhost:4000/articles/a-better-hello-world" data-width="auto" data-numposts="10"></div>
+</div>
+<!--
+<div id="Disqus" class="tabcontent">
+    <div class="comment-wrapper">
+        
+    </div>
+</div>
+<div id="Google+" class="tabcontent">
+    <script src="https://apis.google.com/js/plusone.js">
+    </script>
+    <div id="google_comments"></div>
+    <script>
+    gapi.comments.render('google_comments', {
+        href: window.location,
+        width: '900',
+        height: '200',
+        first_party_property: 'BLOGGER',
+        view_type: 'FILTERED_POSTMOD'
+    });
+    </script>
+</div>
+-->
+<script>
+function openComment(evt, CommentName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(CommentName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<!--
+<style>
+.buttons {
+    background-color: black; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+</style>
+-->
 
 
 </div>

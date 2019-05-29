@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "REPLAB - A Reproducible Low-Cost Arm Benchmark Platform For Robotic Learning",
+      "category" : "",
+      "tags"     : "robot, hardware, arm, machine_learning, dataset",
+      "url"      : "/https://sites.google.com/view/replab/",
+      "date"     : "2019-05-29 00:00:00 +0200"
+    } ,
+  
+    {
       "title"    : "Build a side project, build an empire",
       "category" : "",
       "tags"     : "start_up, life_lessons",
@@ -33,51 +41,43 @@
     } ,
   
     {
-      "title"    : "What the heck is a Callback?",
+      "title"    : "A Comprehensive List of 3D Sensors Commonly Leveraged in ROS Development.",
       "category" : "",
-      "tags"     : "javascript, nodejs, web_development",
-      "url"      : "/articles/what-the-heck-is-a-callback",
+      "tags"     : "robot, hardware, sensor, camera",
+      "url"      : "/https://rosindustrial.org/3d-camera-survey",
+      "date"     : "2019-05-09 00:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "Sweeper - A Sweet-pepper Harvesting Robot.",
+      "category" : "",
+      "tags"     : "robot, application, agricultural",
+      "url"      : "/https://rosindustrial.org/3d-camera-survey",
+      "date"     : "2019-04-18 00:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "The Age of Robot Farmers",
+      "category" : "",
+      "tags"     : "robot, application, business",
+      "url"      : "/https://www.newyorker.com/magazine/2019/04/15/the-age-of-robot-farmers",
+      "date"     : "2019-04-15 00:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "Deep Learning - All You Need to Know",
+      "category" : "",
+      "tags"     : "course, deep_learning",
+      "url"      : "/https://github.com/machinelearningmindset/deep-learning-ocean",
+      "date"     : "2018-12-09 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Simple and ready-to-use tutorials for TensorFlow",
+      "category" : "",
+      "tags"     : "course, tensorflow",
+      "url"      : "/https://github.com/machinelearningmindset/TensorFlow-Course",
       "date"     : "2018-12-01 00:00:00 +0100"
-    } ,
-  
-    {
-      "title"    : "4 Lessons After 11 Years in Silicon Valley",
-      "category" : "",
-      "tags"     : "lessons",
-      "url"      : "/articles/four-lessons-after-eleven-years-in-silicon-valley",
-      "date"     : "2018-05-09 00:00:00 +0200"
-    } ,
-  
-    {
-      "title"    : "GitHub Flow",
-      "category" : "",
-      "tags"     : "gitHub, workflow",
-      "url"      : "/articles/github-flow",
-      "date"     : "2017-01-01 00:00:00 +0100"
-    } ,
-  
-    {
-      "title"    : "A better Hello World",
-      "category" : "",
-      "tags"     : "software_development",
-      "url"      : "/articles/a-better-hello-world",
-      "date"     : "2016-07-23 00:00:00 +0200"
-    } ,
-  
-    {
-      "title"    : "Do not go gentle into that good night",
-      "category" : "",
-      "tags"     : "poetry",
-      "url"      : "/articles/do-not-go-gentle-into-that-good-night",
-      "date"     : "2016-04-17 00:00:00 +0200"
-    } ,
-  
-    {
-      "title"    : "What is version control?",
-      "category" : "",
-      "tags"     : "version_control",
-      "url"      : "/articles/what-is-version-control",
-      "date"     : "2016-02-09 00:00:00 +0100"
     } 
   
 ]

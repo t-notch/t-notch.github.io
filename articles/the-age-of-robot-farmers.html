@@ -167,10 +167,10 @@
 -->
             <b>----------</b>
             <b>Share this on:</b>
-            <a class="_share_bt" href="https://twitter.com/share?text=Tag%3A+workflow&amp;url=https://notchlab.com/tag/workflow"
+            <a class="_share_bt" href="https://twitter.com/share?text=The+Age+of+Robot+Farmers&amp;url=https://notchlab.com/articles/the-age-of-robot-farmers"
                 onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><i class="fab fa-2x fa-twitter"></i>
             </a>
-            <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=https://notchlab.com/tag/workflow"
+            <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=https://notchlab.com/articles/the-age-of-robot-farmers"
                 onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><i class="fab fa-2x fa-facebook"></i>
             </a>
           </div>
@@ -227,39 +227,128 @@
         }    
     </script>
 
-  <div class="post">
-<br>
-<h3>#workflow</h3>
-    <div class="card-columns m-3 mt-5">
+  <div class="col-lg-10 mx-auto mt-5 article">
+  <h1><b>The Age of Robot Farmers</b></h1>
 
-      
+  <p class="article-metadata text-muted">
+    15 April 2019 -  
+    <b>
+    
+    
+      less than 1 min read time
+    
+    </b>
 
-	
-	
+    <br>
 
-	<div class="wow animated fadeIn" data-wow-delay=".15s">
-	  <a href="/articles/github-flow" class="project card text-dark">
-	    
-	    <div class="card-body">
-	      <h5 class="card-title">GitHub Flow</h5>
-	      <p class="card-text">GitHub Flow is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly. This guide explains how and why GitHub Flow works.</p>
-	      <p class="card-text">
-		
-		  <span class="badge badge-pill text-primary border border-primary">gitHub</span>
-		
-		  <span class="badge badge-pill text-primary border border-primary">workflow</span>
-		
-	      </p>
-	    </div>
-	  </a>
-	</div>
-	
-      
+    
+      Tags: 
+      <span>[
+        
+          
+          <a href="/tag/robot"><code class="highligher-rouge"><nobr>robot</nobr></code>&nbsp;</a>
+        
+          
+          <a href="/tag/application"><code class="highligher-rouge"><nobr>application</nobr></code>&nbsp;</a>
+        
+          
+          <a href="/tag/business"><code class="highligher-rouge"><nobr>business</nobr></code>&nbsp;</a>
+        
+      ]</span>
+    
 
+  </p>
+
+  
+
+  
+<br>  
+<p align="right">
+    <mark class="px-3">Share this on:</mark>
+
+    <a class="_share_bt" href="https://twitter.com/share?text=The+Age+of+Robot+Farmers&amp;url=https://notchlab.com/articles/the-age-of-robot-farmers"
+        onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><i class="fab fa-2x fa-twitter"></i>
+    </a>&emsp;
+    <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=https://notchlab.com/articles/the-age-of-robot-farmers"
+        onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><i class="fab fa-2x fa-facebook"></i>
+    </a>&emsp;&emsp;
+</p>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=168442633825943";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+<!--
+<div class="buttons">
+<div style="width: 100%">
+    <button class="buttons1" onclick="openComment(event, 'Facebook')" id="defaultOpen"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></button>
+    <button class="buttons2" onclick="openComment(event, 'Disqus')"><i class="fa fa-commenting-o fa-3x" aria-hidden="true"></i></button>
+</div>
+</div>
+-->
+<div id="Facebook" class="tabcontent">
+    <div class="fb-comments" data-href="http://localhost:4000/articles/the-age-of-robot-farmers" data-width="auto" data-numposts="10"></div>
+</div>
+<!--
+<div id="Disqus" class="tabcontent">
+    <div class="comment-wrapper">
+        
     </div>
 </div>
-<hr>
+<div id="Google+" class="tabcontent">
+    <script src="https://apis.google.com/js/plusone.js">
+    </script>
+    <div id="google_comments"></div>
+    <script>
+    gapi.comments.render('google_comments', {
+        href: window.location,
+        width: '900',
+        height: '200',
+        first_party_property: 'BLOGGER',
+        view_type: 'FILTERED_POSTMOD'
+    });
+    </script>
+</div>
+-->
+<script>
+function openComment(evt, CommentName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(CommentName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<!--
+<style>
+.buttons {
+    background-color: black; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+</style>
+-->
 
+<iframe width="540" height="450" src="https://sibforms.com/serve/MUIEAH0ysLF-yUzWGJkr-BSqM7tSknVtglH_hQF5bKx-qJFnvgpBAw3F1NN7ShlKBqP3Oe04Mb2K2iR3ubx6q22QzUsqD3_TtyP7CxKVOCE1tH39AHAw9DeRBBAbYZ_6getK9A__g1tvAsuo-wM3A40KqSQk094TCBAEg3nmJ-Sj_bzcUUhehZ9DwMbwHZSEAqpPREkjlWmubdhx" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+
+</div>
 
   </main>
 
@@ -285,7 +374,7 @@
   
 
   
-  <a class="social email mx-1" href="mailto:t.notch@zoho.eu">
+  <a class="social email mx-1" href="mailto:notchlab.com@gmail.com">
     <i class="fas fa-1x fa-envelope"></i>
   </a>
   

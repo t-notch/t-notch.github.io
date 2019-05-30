@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+
+<html lang="en" class="h-100">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=""Don’t be scared to invest time and effort into something that truly makes you tick. It won’t distract you or tire you out; it will energize you."">
+
+  <title>NotchLab - Learn, Hack, Disrupt</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+  
+  
+
+
+
+
+
+
+  
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+  
+  <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=168442633825943&autoLogAppEvents=1"></script>
+
+</head>
+
+
+<body class="d-flex flex-column h-100">
+  <main class="flex-shrink-0 container mt-5">
+  <style>
+  
+.homebtn{
+    cursor:pointer;
+    position:fixed;
+    z-index: 1110;
+    right:10px;
+    top:55px;
+    opacity:0.6;
+    }
+.homebtn:hover {
+        opacity:0.8;
+      }   
+      
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1111;
+    top: 0;
+    right: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.overlay b {
+    padding: 6px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {  font-size: 20px;
+                padding: 6px;}
+  .overlay b {font-size: 15px;
+                padding: 4px;}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 10px;
+    right: 5px;
+  }
+}
+
+#_share_bt {
+  background-color: transparent;
+  margin-right: 7px;
+  }
+
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 0px;
+        right: -5px;
+        z-index: 9999;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        opacity:0.5;
+        cursor: pointer;
+      }
+
+      #myBtn:hover {
+        opacity:0.7;
+      }      
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}  
+</style>
+
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="/assets/images/chevron_round_black.png" alt="menu_btn" width="60" height="60">
+    </button>
+        <span class="homebtn" onclick="openNav()"><img src="/assets/images/menu.png" alt="menu_btn" width="35" height="35"></span>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a class="hover01" href="/"><figure><img src="/assets/images/logo.png" alt="menu_btn" width="160"></figure></a>
+            <a href="/articles/">Articles</a>
+            <a href="/about/">About</a>
+<!--
+            <a href="https://www.youtube.com/user/nttputus">
+                <i class="fas fa-2x fa-video"></i>
+            </a>
+-->
+            <b>----------</b>
+            <b>Share this on:</b>
+            <a class="_share_bt" href="https://twitter.com/share?text=&amp;url=https://notchlab.com/search"
+                onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><i class="fab fa-2x fa-twitter"></i>
+            </a>
+            <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=https://notchlab.com/search"
+                onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><i class="fab fa-2x fa-facebook"></i>
+            </a>
+          </div>
+        </div>  
+  <a class="navbar-brand" href="/"><img src="/assets/images/logo_dark.png" height="30"></a>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="/articles">Articles</a>
+          <a class="nav-item nav-link" href="/about">About</a>
+<!--
+            <a class="social facebook mx-2" href="https://www.youtube.com/user/nttputus">
+                <i class="fas fa-2x fa-video"></i>
+            </a>
+-->
+    </div>
+  </div>
+
+</nav>
+
+
+
+<script>
+    var body_myNav = document.getElementById('myNav');
+    body_myNav.addEventListener("click", function (event) 
+    {
+            document.getElementById("myNav").style.width = "0%";
+    }, false);
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+</script>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        //// When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          var $target = $('html,body');
+          $target.animate({scrollTop: 0}, 500);
+        }    
+    </script>
+
+  <form action="/search.html" method="get">
+  <label for="search-box">Search</label>
+  <input type="text" id="search-box" name="query">
+  <input type="submit" value="search">
+</form>
+
+<ul id="search-results"></ul>
+
+<script>
+  window.store = {
+            
+        
+        
+        {
+          "title"    : "REPLAB - A Reproducible Low-Cost Arm Benchmark Platform For Robotic Learning",
+          "category" : "",
+          "tags"     : "robot, hardware, arm, machine_learning, dataset",
+          "url"      : "https://sites.google.com/view/replab/",
+          "date"     : "2019-05-29 00:00:00 +0200"
+        } ,
+            
+        
+        
+        {
+          "title"    : "Build a side project, build an empire",
+          "category" : "",
+          "tags"     : "start_up, life_lessons",
+          "url"      : "https://medium.com/swlh/build-a-side-project-build-an-empire-d3ffa211589c",
+          "date"     : "2019-05-28 00:00:00 +0200"
+        } ,
+            
+        
+        
+        {
+          "title"    : "A Machine Learning Course with Python",
+          "category" : "",
+          "tags"     : "course, machine_learning, python",
+          "url"      : "https://github.com/machinelearningmindset/machine-learning-course",
+          "date"     : "2019-05-19 00:00:00 +0200"
+        } ,
+            
+        
+        
+        {
+          "title"    : "May 2019 - Monthly Machine Learning challenge",
+          "category" : "",
+          "tags"     : "challenge, machine_learning, hackerearth",
+          "url"      : "https://www.hackerearth.com/challenges/competitive/on-the-plague-trail-hackerearth-machine-learning-challenge/",
+          "date"     : "2019-05-18 00:00:00 +0200"
+        } ,
+            
+        
+        
+        {
+          "title"    : "An introduction to Reinforcement Learning",
+          "category" : "",
+          "tags"     : "course, reinforcement_learning",
+          "url"      : "https://simoninithomas.github.io/Deep_reinforcement_learning_Course/",
+          "date"     : "2019-05-12 00:00:00 +0200"
+        } ,
+            
+        
+        
+        {
+          "title"    : "A Comprehensive List of 3D Sensors Commonly Leveraged in ROS Development.",
+          "category" : "",
+          "tags"     : "robot, hardware, sensor, camera",
+          "url"      : "https://rosindustrial.org/3d-camera-survey",
+          "date"     : "2019-05-09 00:00:00 +0200"
+        } ,
+            
+        
+        
+        {
+          "title"    : "Sweeper - A Sweet-pepper Harvesting Robot.",
+          "category" : "",
+          "tags"     : "robot, application, agricultural",
+          "url"      : "https://rosindustrial.org/3d-camera-survey",
+          "date"     : "2019-04-18 00:00:00 +0200"
+        } ,
+            
+        
+        
+        {
+          "title"    : "The Age of Robot Farmers",
+          "category" : "",
+          "tags"     : "robot, application, business",
+          "url"      : "https://www.newyorker.com/magazine/2019/04/15/the-age-of-robot-farmers",
+          "date"     : "2019-04-15 00:00:00 +0200"
+        } ,
+            
+        
+        
+        {
+          "title"    : "Deep Learning - All You Need to Know",
+          "category" : "",
+          "tags"     : "course, deep_learning",
+          "url"      : "https://github.com/machinelearningmindset/deep-learning-ocean",
+          "date"     : "2018-12-09 00:00:00 +0100"
+        } ,
+            
+        
+        
+        {
+          "title"    : "Simple and ready-to-use tutorials for TensorFlow",
+          "category" : "",
+          "tags"     : "course, tensorflow",
+          "url"      : "https://github.com/machinelearningmindset/TensorFlow-Course",
+          "date"     : "2018-12-01 00:00:00 +0100"
+        } 
+      
+  };
+</script>
+<script src="/assets/js/lunr.min.js"></script>
+<script src="/assets/js/search.js"></script>
+
+  </main>
+
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>T-Notch</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center">
+
+  
+  <a class="social twitter mx-1" href="https://www.twitter.com/notch_lab">
+    <i class="fab fa-1x fa-twitter"></i>
+  </a>
+  
+
+  
+  <a class="social facebook mx-1" href="https://www.youtube.com/user/nttputus">
+    <i class="fab fa-1x fa-youtube"></i>
+  </a>
+  
+
+  
+  <a class="social email mx-1" href="mailto:notchlab.com@gmail.com">
+    <i class="fas fa-1x fa-envelope"></i>
+  </a>
+  
+
+  
+  <a class="social github mx-1" href="https://www.github.com/t-notch">
+    <i class="fab fa-1x fa-github"></i>
+  </a>
+  
+
+  
+  <a class="social linkedin mx-1" href="https://www.linkedin.com/in/tienthanh">
+    <i class="fab fa-1x fa-linkedin-in"></i>
+  </a>
+  
+
+</div>
+
+
+</footer>
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Card Animation jQuery -->
+<script src="/assets/js/card-animation.js"></script>
+
+<!-- Simple-Jekyll-Search CDN -->
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action">{title}</a>',
+        noResultsText: '<li class="list-group-item">No results found</li>',
+        json: '/search.json'
+      })
+</script>
+
+
+</body>
+
+</html>

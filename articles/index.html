@@ -228,14 +228,16 @@
     </script>
 
   <!-- Simple-Jekyll-Search https://github.com/christian-fei/Simple-Jekyll-Search -->
-
+<form action="/search.html" method="get">
 <div class="input-group mt-5 px-3">
-  <input id="search-input" type="text" class="form-control search-box" placeholder="Search articles..">
+  <input id="search-input" type="text" name="query" class="form-control search-box" placeholder="Search..">
   <div class="input-group-append">
-    <span class="input-group-text border border-primary bg-primary text-white"><i class="fas fa-search"></i></span>
+    <span class="input-group-text text-black"><i class="fas fa-search"></i></span>
   </div>
 </div>
+</form>
 <ul class="px-3" id="results-container"></ul>
+
 <div class="card-columns m-3 mt-5">
 
   

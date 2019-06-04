@@ -123,8 +123,8 @@
       #myBtn {
         display: none;
         position: fixed;
-        bottom: 0px;
-        right: -5px;
+        bottom: 5px;
+        right: 5px;
         z-index: 9999;
         border: none;
         outline: none;
@@ -151,9 +151,9 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light">
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="/assets/images/chevron_round_black.png" alt="menu_btn" width="60" height="60">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="far fa-2x fa-arrow-alt-circle-up"></i>
     </button>
-        <span class="homebtn" onclick="openNav()"><img src="/assets/images/menu.png" alt="menu_btn" width="35" height="35"></span>
+        <span class="homebtn" onclick="openNav()"><i class="fas fa-2x fa-bars"></i></span>
         <div id="myNav" class="overlay">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
@@ -228,125 +228,21 @@
     </script>
 
   <div class="col-lg-10 mx-auto mt-5 article">
-  <h1><b>Sweeper - A Sweet-pepper Harvesting Robot.</b></h1>
 
-  <p class="article-metadata text-muted">
-    18 April 2019 -  
-    <b>
-    
-    
-      less than 1 min read time
-    
-    </b>
-
-    <br>
-
-    
-      Tags: 
-      <span>[
-        
-          
-          <a href="/tag/robot"><code class="highligher-rouge"><nobr>robot</nobr></code>&nbsp;</a>
-        
-          
-          <a href="/tag/application"><code class="highligher-rouge"><nobr>application</nobr></code>&nbsp;</a>
-        
-          
-          <a href="/tag/agricultural"><code class="highligher-rouge"><nobr>agricultural</nobr></code>&nbsp;</a>
-        
-      ]</span>
-    
-
-  </p>
-
-  
-
-  
-<br>  
-<p align="right">
-    <mark class="px-3">Share this on:</mark>
-
-    <a class="_share_bt" href="https://twitter.com/share?text=Sweeper+-+A+Sweet-pepper+Harvesting+Robot.&amp;url=https://notchlab.com/articles/sweeper-a-sweet-pepper-harvesting-robot"
-        onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><i class="fab fa-2x fa-twitter"></i>
-    </a>&emsp;
-    <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=https://notchlab.com/articles/sweeper-a-sweet-pepper-harvesting-robot"
-        onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><i class="fab fa-2x fa-facebook"></i>
-    </a>&emsp;&emsp;
-</p>
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=168442633825943";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-
-<!--
-<div class="buttons">
-<div style="width: 100%">
-    <button class="buttons1" onclick="openComment(event, 'Facebook')" id="defaultOpen"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></button>
-    <button class="buttons2" onclick="openComment(event, 'Disqus')"><i class="fa fa-commenting-o fa-3x" aria-hidden="true"></i></button>
-</div>
-</div>
--->
-<div id="Facebook" class="tabcontent">
-    <div class="fb-comments" data-href="http://localhost:4000/articles/sweeper-a-sweet-pepper-harvesting-robot" data-width="auto" data-numposts="10"></div>
-</div>
-<!--
-<div id="Disqus" class="tabcontent">
-    <div class="comment-wrapper">
-        
-    </div>
-</div>
-<div id="Google+" class="tabcontent">
-    <script src="https://apis.google.com/js/plusone.js">
-    </script>
-    <div id="google_comments"></div>
-    <script>
-    gapi.comments.render('google_comments', {
-        href: window.location,
-        width: '900',
-        height: '200',
-        first_party_property: 'BLOGGER',
-        view_type: 'FILTERED_POSTMOD'
-    });
-    </script>
-</div>
--->
-<script>
-function openComment(evt, CommentName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
+  <style>
+    iframe {
+	position: fixed;
+	border: none;
+	top: 120px; right: 0;
+	bottom: 200px; left: 0;
+	width: 100%;
+	height: 100%;
     }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(CommentName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-<!--
-<style>
-.buttons {
-    background-color: black; /* Green */
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
 </style>
--->
 
-<iframe width="540" height="450" src="https://sibforms.com/serve/MUIEAH0ysLF-yUzWGJkr-BSqM7tSknVtglH_hQF5bKx-qJFnvgpBAw3F1NN7ShlKBqP3Oe04Mb2K2iR3ubx6q22QzUsqD3_TtyP7CxKVOCE1tH39AHAw9DeRBBAbYZ_6getK9A__g1tvAsuo-wM3A40KqSQk094TCBAEg3nmJ-Sj_bzcUUhehZ9DwMbwHZSEAqpPREkjlWmubdhx" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+<iframe src="http://ieeeagra.com/events/webinar-april-18-2019/"></iframe>
+
+
 
 </div>
 
@@ -354,6 +250,10 @@ document.getElementById("defaultOpen").click();
 
   <footer class="mt-auto py-3 text-center">
 
+<!--
+<iframe width="540" height="450" src="https://sibforms.com/serve/MUIEAH0ysLF-yUzWGJkr-BSqM7tSknVtglH_hQF5bKx-qJFnvgpBAw3F1NN7ShlKBqP3Oe04Mb2K2iR3ubx6q22QzUsqD3_TtyP7CxKVOCE1tH39AHAw9DeRBBAbYZ_6getK9A__g1tvAsuo-wM3A40KqSQk094TCBAEg3nmJ-Sj_bzcUUhehZ9DwMbwHZSEAqpPREkjlWmubdhx" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+
+-->
   <small class="text-muted mb-2">
     <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
     by <strong>T-Notch</strong>
@@ -395,6 +295,7 @@ document.getElementById("defaultOpen").click();
 
 
 </footer>
+
   <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 

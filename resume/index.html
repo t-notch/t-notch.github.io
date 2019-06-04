@@ -32,22 +32,19 @@
       #myBtn {
         display: none;
         position: fixed;
-        bottom: 20px;
-        right: 30px;
+        bottom: 10px;
+        right: 10px;
         z-index: 99;
         font-size: 18px;
         border: none;
         outline: none;
-        background-color: #bd5d38;
-        opacity:0.6;
-        color: white;
+        opacity:0.5;
         cursor: pointer;
-        padding: 15px;
-        border-radius: 8px;
+        background-color: transparent;
       }
 
       #myBtn:hover {
-        background-color: #a58b7c;
+        opacity:0.7;
       }
     </style>
     <!-- Modernizr -->
@@ -58,7 +55,7 @@
   <body id="page-top">
         
     <button onclick="topFunction()" id="myBtn" title="Go to top">
-      <img src="img/arrow-up.png" style="height:20px;">
+      <i class="far fa-2x fa-arrow-alt-circle-up"></i>
     </button>
 
     <script>
@@ -114,7 +111,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/">
-              <img src="img/home_icon.png" style="height:40px;">
+              <i class="fas fa-2x fa-hand-point-left"></i>
             </a>
           </li>
         </ul>

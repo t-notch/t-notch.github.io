@@ -46,7 +46,7 @@
       "title"    : "An introduction to Reinforcement Learning",
       "category" : "",
       "tags"     : "course, reinforcement_learning",
-      "url"      : "https://simoninithomas.github.io/Deep_reinforcement_learning_Course/",
+      "url"      : "/articles/an-introduction-to-reinforcement-learning",
       "date"     : "2019-05-12 00:00:00 +0200"
     } ,
   
@@ -56,7 +56,7 @@
       "title"    : "A Comprehensive List of 3D Sensors Commonly Leveraged in ROS Development.",
       "category" : "",
       "tags"     : "robot, hardware, sensor, camera",
-      "url"      : "https://rosindustrial.org/3d-camera-survey",
+      "url"      : "/articles/3d-camera-list-rosinsdustrial",
       "date"     : "2019-05-09 00:00:00 +0200"
     } ,
   
@@ -66,7 +66,7 @@
       "title"    : "Sweeper - A Sweet-pepper Harvesting Robot.",
       "category" : "",
       "tags"     : "robot, application, agricultural",
-      "url"      : "http://ieeeagra.com/events/webinar-april-18-2019/",
+      "url"      : "/articles/sweeper-a-sweet-pepper-harvesting-robot",
       "date"     : "2019-04-18 00:00:00 +0200"
     } ,
   
@@ -76,7 +76,7 @@
       "title"    : "The Age of Robot Farmers",
       "category" : "",
       "tags"     : "robot, application, business",
-      "url"      : "https://www.newyorker.com/magazine/2019/04/15/the-age-of-robot-farmers",
+      "url"      : "/articles/the-age-of-robot-farmers",
       "date"     : "2019-04-15 00:00:00 +0200"
     } ,
   

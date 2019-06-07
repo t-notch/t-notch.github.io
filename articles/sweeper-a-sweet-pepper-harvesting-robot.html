@@ -35,7 +35,8 @@
   
   <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=168442633825943&autoLogAppEvents=1"></script>
-
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5cf96cb24351e9001264f91c&product=inline-share-buttons' async='async'></script>
 </head>
 
 
@@ -47,9 +48,14 @@
     cursor:pointer;
     position:fixed;
     z-index: 1110;
-    right:10px;
-    top:55px;
+    right:0px;
+    top:50px;
     opacity:0.6;
+    padding: 4px 9px 2px 9px;
+    border: yes;
+    border-width: thin;
+    border-style: solid;
+    border-color: gray;
     }
 .homebtn:hover {
         opacity:0.8;
@@ -59,7 +65,7 @@
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1111;
+    z-index: 2147483647;
     top: 0;
     right: 0;
     background-color: rgb(0,0,0);
@@ -98,8 +104,8 @@
 
 .overlay .closebtn {
     position: absolute;
-    top: 10px;
-    right: 5px;
+    top: 15px;
+    right: 10px;
     font-size: 60px;
 }
 
@@ -130,7 +136,15 @@
         outline: none;
         background-color: transparent;
         opacity:0.5;
-        cursor: pointer;
+        cursor: pointer;    
+          border-radius: 50%;
+          padding: 0.2em 0.5em 0.2em 0.5em; /* adjust padding */
+          line-height: initial !important; /* reset line-height */
+          text-align:center;
+    border: yes;
+    border-width: thin;
+    border-style: solid;
+    border-color: gray;
       }
 
       #myBtn:hover {
@@ -151,7 +165,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light">
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="far fa-2x fa-arrow-alt-circle-up"></i>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-2x fa-chevron-up"></i>
     </button>
         <span class="homebtn" onclick="openNav()"><i class="fas fa-2x fa-bars"></i></span>
         <div id="myNav" class="overlay">
@@ -160,19 +174,42 @@
             <a class="hover01" href="/"><figure><img src="/assets/images/logo.png" alt="menu_btn" width="160"></figure></a>
             <a href="/articles/">Articles</a>
             <a href="/about/">About</a>
-<!--
-            <a href="https://www.youtube.com/user/nttputus">
-                <i class="fas fa-2x fa-video"></i>
-            </a>
--->
             <b>----------</b>
-            <b>Share this on:</b>
-            <a class="_share_bt" href="https://twitter.com/share?text=Sweeper+-+A+Sweet-pepper+Harvesting+Robot.&amp;url=https://notchlab.com/articles/sweeper-a-sweet-pepper-harvesting-robot"
-                onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><i class="fab fa-2x fa-twitter"></i>
-            </a>
-            <a class="_share_bt" href="https://www.facebook.com/sharer/sharer.php?u=https://notchlab.com/articles/sweeper-a-sweet-pepper-harvesting-robot"
-                onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><i class="fab fa-2x fa-facebook"></i>
-            </a>
+            <b>Follow me on:</b>
+            <div class="container-fluid justify-content-center">
+
+  
+  <a class="social twitter mx-1" href="https://www.twitter.com/notch_lab">
+    <i class="fab fa-1x fa-twitter"></i>
+  </a>
+  
+
+  
+  <a class="social facebook mx-1" href="https://www.youtube.com/user/nttputus">
+    <i class="fab fa-1x fa-youtube"></i>
+  </a>
+  
+
+  
+  <a class="social email mx-1" href="mailto:notchlab.com@gmail.com">
+    <i class="fas fa-1x fa-envelope"></i>
+  </a>
+  
+
+  
+  <a class="social github mx-1" href="https://www.github.com/t-notch">
+    <i class="fab fa-1x fa-github"></i>
+  </a>
+  
+
+  
+  <a class="social linkedin mx-1" href="https://www.linkedin.com/in/tienthanh">
+    <i class="fab fa-1x fa-linkedin-in"></i>
+  </a>
+  
+
+</div>
+
           </div>
         </div>  
   <a class="navbar-brand" href="/"><img src="/assets/images/logo_dark.png" height="30"></a>
@@ -181,11 +218,6 @@
     <div class="navbar-nav ml-auto">
           <a class="nav-item nav-link" href="/articles">Articles</a>
           <a class="nav-item nav-link" href="/about">About</a>
-<!--
-            <a class="social facebook mx-2" href="https://www.youtube.com/user/nttputus">
-                <i class="fas fa-2x fa-video"></i>
-            </a>
--->
     </div>
   </div>
 
@@ -230,15 +262,342 @@
   <div class="col-lg-10 mx-auto mt-5 article">
 
   <style>
-    iframe {
+iframe {
 	position: fixed;
 	border: none;
 	top: 120px; right: 0;
-	bottom: 200px; left: 0;
+	bottom: 0; left: 0;
 	width: 100%;
-	height: 100%;
+	height: calc(100% - 120px);
+}
+
+.commentbtn{
+    cursor:pointer;
+    position:fixed;
+    z-index: 1110;
+    right:5px;
+    bottom:5px;
+    opacity:0.9;
+  background: gray;
+  color: white;
+  border-radius: 50%;
+  padding: 0.5em; /* adjust padding */
+  line-height: initial !important; /* reset line-height */
+  text-align:center;
     }
+.commentbtn:hover {
+        background: rgb(200,200,200);
+      }   
+.comment_area {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1100;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(255,255,255);
+    overflow: auto;
+    transition: 0.5s;
+}
+
+.comment_area-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.comment_area a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.comment_area b {
+    padding: 6px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.comment_area a:hover, .comment_area a:focus {
+    color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+  .comment_area a {  font-size: 20px;
+                padding: 6px;}
+  .comment_area b {font-size: 15px;
+                padding: 4px;}
+  .comment_area .closebtn {
+    font-size: 40px;
+    top: 10px;
+    right: 5px;
+  }
+}
+
+}
 </style>
+
+<nav>
+        <div id="combutton" class="commentbtn" onclick="togcomment()"><i class="fas fa-2x fa-comment-dots"></i></div>
+        <div id="comarea" class="comment_area">
+		<div class="col-lg-10 mx-auto mt-5 article">
+		  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=168442633825943";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+		</div>
+		<div class="col-lg-10 mx-auto mt-5 article">
+		<!--
+<div class="buttons">
+<div style="width: 100%">
+    <button class="buttons1" onclick="openComment(event, 'Facebook')" id="defaultOpen"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></button>
+    <button class="buttons2" onclick="openComment(event, 'Disqus')"><i class="fa fa-commenting-o fa-3x" aria-hidden="true"></i></button>
+</div>
+</div>
+-->
+<div id="Facebook" class="tabcontent">
+    <div class="fb-comments" data-href="http://localhost:4000/articles/sweeper-a-sweet-pepper-harvesting-robot" data-width="auto" data-numposts="10"></div>
+</div>
+<!--
+<div id="Disqus" class="tabcontent">
+    <div class="comment-wrapper">
+        
+    </div>
+</div>
+<div id="Google+" class="tabcontent">
+    <script src="https://apis.google.com/js/plusone.js">
+    </script>
+    <div id="google_comments"></div>
+    <script>
+    gapi.comments.render('google_comments', {
+        href: window.location,
+        width: '900',
+        height: '200',
+        first_party_property: 'BLOGGER',
+        view_type: 'FILTERED_POSTMOD'
+    });
+    </script>
+</div>
+-->
+<script>
+function openComment(evt, CommentName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(CommentName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<!--
+<style>
+.buttons {
+    background-color: black; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+</style>
+-->
+
+		</div>
+		<div class="col-lg-10 mx-auto mt-5 article">
+		<br />
+		<br />
+		  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NotchLab</title>
+    <style>
+      @font-face {
+        font-display: block;
+        font-family: Roboto;
+        src: url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")
+      }
+
+      @font-face {
+        font-display: fallback;
+        font-family: Roboto;
+        font-weight: 600;
+        src: url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/6e9caeeafb1f3491be3e32744bc30440.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/71501f0d8d5aa95960f6475d5487d4c2.woff) format("woff")
+      }
+
+      @font-face {
+        font-display: fallback;
+        font-family: Roboto;
+        font-weight: 700;
+        src: url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/3ef7cf158f310cf752d5ad08cd0e7e60.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/ece3a1d82f18b60bcce0211725c476aa.woff) format("woff")
+      }
+    </style>
+    <style>
+      #sib-container input:-ms-input-placeholder {
+        text-align: left;
+        font-family: "Helvetica", sans-serif;
+        color: #c0ccda;
+        border-width: px;
+      }
+
+      #sib-container input::placeholder {
+        text-align: left;
+        font-family: "Helvetica", sans-serif;
+        color: #c0ccda;
+        border-width: px;
+      }
+    </style>
+    <link rel="stylesheet" href="https://assets.sendinblue.com/component/form/61c63ac2f8837041dc7e.css" />
+    <link rel="stylesheet" href="https://assets.sendinblue.com/component/clickable/74ef9830e6b42f1f3c59.css" />
+    <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css" />
+    <script src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+  </head>
+
+
+  <body class="sib-form">
+    <div id="sib-form-container" class="sib-form-container" style="text-align: center;
+       background-color: #ffffff;                                 ">
+      <div id="error-message" class="sib-form-message-panel" style=" font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-width:px; border-color:#ff4949; max-width:540px; border-width:px;">
+        <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+          <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
+            <path d="M256 40c118.621 0 216 96.075 216 216 0 119.291-96.61 216-216 216-119.244 0-216-96.562-216-216 0-119.203 96.602-216 216-216m0-32C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm-11.49 120h22.979c6.823 0 12.274 5.682 11.99 12.5l-7 168c-.268 6.428-5.556 11.5-11.99 11.5h-8.979c-6.433 0-11.722-5.073-11.99-11.5l-7-168c-.283-6.818 5.167-12.5 11.99-12.5zM256 340c-15.464 0-28 12.536-28 28s12.536 28 28 28 28-12.536 28-28-12.536-28-28-28z" />
+          </svg>
+          <span class="sib-form-message-panel__inner-text">
+                      Your subscription could not be saved. Please try again.
+                  </span>
+        </div>
+      </div>
+      <div></div>
+      <div id="success-message" class="sib-form-message-panel" style=" font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#085229; background-color:#e7faf0; border-radius:3px; border-width:px; border-color:#13ce66; max-width:540px; border-width:px;">
+        <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+          <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
+            <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 464c-118.664 0-216-96.055-216-216 0-118.663 96.055-216 216-216 118.664 0 216 96.055 216 216 0 118.663-96.055 216-216 216zm141.63-274.961L217.15 376.071c-4.705 4.667-12.303 4.637-16.97-.068l-85.878-86.572c-4.667-4.705-4.637-12.303.068-16.97l8.52-8.451c4.705-4.667 12.303-4.637 16.97.068l68.976 69.533 163.441-162.13c4.705-4.667 12.303-4.637 16.97.068l8.451 8.52c4.668 4.705 4.637 12.303-.068 16.97z" />
+          </svg>
+          <span class="sib-form-message-panel__inner-text">
+                      Your subscription has been successful.
+                  </span>
+        </div>
+      </div>
+      <div></div>
+      <div id="sib-container" class="sib-container--large sib-container--vertical" style=" text-align:center; background-color:rgba(255,255,255,1); max-width:540px; border-radius:3px; border-width:1px; border-color:#ffffff; border-style:solid;">
+        <form id="sib-form" method="POST" action="https://sibforms.com/serve/MUIEAMfqTZCKNPUrdOHxSPU7gYhIVkkqcrvr4K9j-6Sd_xU8xzjceKQu_la2YXajKxDM1LxO9_2oCjWWOOy3W32wR0BaYNDowZlYlsOl-WebfX_Q-f5aNSJBZBc8TsF8COR0r3Iz3h5-PwfEnp5LtT10AMeFOiCZYzG5EGDTyYw-54zqDpt65xpSy9vmRDv8Eivxa4ntO93Y7oFs">
+          <div style="padding: 5px 0;">
+            <div class="sib-input sib-form-block">
+              <div class="form__entry entry_block">
+                <div class="form__label-row ">
+                  <label class="entry__label" style=" font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3c4858; border-width:px;" for="EMAIL" data-required="*">
+                    Subscribe! Get the latest update delivered to your inbox!
+                  </label>
+
+                  <div id="subarea" class="entry__field">
+                    <input class="input" type="email" id="EMAIL" name="EMAIL" autocomplete="off" placeholder=" email address, for e.g abc@xyz.com" data-required="true" required="" />
+                  </div>
+                </div>
+
+                <label class="entry__error entry__error--primary" style=" font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-width:px; border-color:#ff4949;">
+                </label>
+                <label class="entry__specification" style=" font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#8390A4; border-width:px;">
+                  Your privacy is crucial to me. I am looking forward to communicate with you.
+                </label>
+              </div>
+            </div>
+          </div>
+          <div style="padding: 5px 0;">
+            <div class="sib-form-block" style="text-align: center">
+              <button class="sib-form-block__button" style=" font-size:16px; text-align:center; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#FFFFFF; background-color:#3E4857; border-radius:3px; border-width:0px;" form="sib-form" type="submit">
+                SUBSCRIBE
+              </button>
+              <div class="sib-loader" style="display: none;">
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+              </div>
+            </div>
+          </div>
+          <div style="padding: 5px 0;">
+            <div class="sib-form-block" style=" font-size:14px; text-align:center; font-family:&quot;Helvetica&quot;, sans-serif; color:#333; background-color:transparent; border-width:px;">
+              <div class="sib-text-form-block">
+              </div>
+            </div>
+          </div>
+          <input type="text" name="email_address_check" value="" class="input--hidden" />
+          <input type="hidden" name="locale" value="en" />
+        </form>
+      </div>
+      <script>
+        window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+
+        window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+        window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank. ";
+
+        window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+
+
+
+        window.translation = {
+          common: {
+            selectedList: '{quantity} list selected',
+            selectedLists: '{quantity} lists selected'
+          }
+        };
+
+        var AUTOHIDE = Boolean(1);
+      </script>
+      <script src="https://sibforms.com/forms/end-form/build/main.js">
+      </script>
+    </div>
+  </body>
+
+		</div>
+        </div>  
+</nav>
+<script>
+    //var body_comarea = document.getElementById('comarea');
+    //body_comarea.addEventListener("click", function (event) 
+    //{
+            //document.getElementById("comarea").style.width = "0%";
+    //}, false);
+function togcomment() {
+  if (document.getElementById("comarea").style.height < "1%") {
+    document.getElementById("comarea").style.height = "calc(100% - 120px)";
+    document.getElementById("combutton").style.color = "orange";
+  } else {
+    document.getElementById("comarea").style.height = "0%";
+    document.getElementById("combutton").style.color = "white";
+  }
+}
+</script>
 
 <iframe src="http://ieeeagra.com/events/webinar-april-18-2019/"></iframe>
 
@@ -251,7 +610,160 @@
   <footer class="mt-auto py-3 text-center">
 
 <!--
-<iframe width="540" height="450" src="https://sibforms.com/serve/MUIEAH0ysLF-yUzWGJkr-BSqM7tSknVtglH_hQF5bKx-qJFnvgpBAw3F1NN7ShlKBqP3Oe04Mb2K2iR3ubx6q22QzUsqD3_TtyP7CxKVOCE1tH39AHAw9DeRBBAbYZ_6getK9A__g1tvAsuo-wM3A40KqSQk094TCBAEg3nmJ-Sj_bzcUUhehZ9DwMbwHZSEAqpPREkjlWmubdhx" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NotchLab</title>
+    <style>
+      @font-face {
+        font-display: block;
+        font-family: Roboto;
+        src: url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")
+      }
+
+      @font-face {
+        font-display: fallback;
+        font-family: Roboto;
+        font-weight: 600;
+        src: url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/6e9caeeafb1f3491be3e32744bc30440.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/71501f0d8d5aa95960f6475d5487d4c2.woff) format("woff")
+      }
+
+      @font-face {
+        font-display: fallback;
+        font-family: Roboto;
+        font-weight: 700;
+        src: url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/3ef7cf158f310cf752d5ad08cd0e7e60.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/ece3a1d82f18b60bcce0211725c476aa.woff) format("woff")
+      }
+    </style>
+    <style>
+      #sib-container input:-ms-input-placeholder {
+        text-align: left;
+        font-family: "Helvetica", sans-serif;
+        color: #c0ccda;
+        border-width: px;
+      }
+
+      #sib-container input::placeholder {
+        text-align: left;
+        font-family: "Helvetica", sans-serif;
+        color: #c0ccda;
+        border-width: px;
+      }
+    </style>
+    <link rel="stylesheet" href="https://assets.sendinblue.com/component/form/61c63ac2f8837041dc7e.css">
+    <link rel="stylesheet" href="https://assets.sendinblue.com/component/clickable/74ef9830e6b42f1f3c59.css">
+    <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+    <script src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+  </head>
+
+
+  <body class="sib-form">
+    <div id="sib-form-container" class="sib-form-container" style="text-align: center;
+       background-color: #ffffff;                                 ">
+      <div id="error-message" class="sib-form-message-panel" style=" font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-width:px; border-color:#ff4949; max-width:540px; border-width:px;">
+        <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+          <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
+            <path d="M256 40c118.621 0 216 96.075 216 216 0 119.291-96.61 216-216 216-119.244 0-216-96.562-216-216 0-119.203 96.602-216 216-216m0-32C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm-11.49 120h22.979c6.823 0 12.274 5.682 11.99 12.5l-7 168c-.268 6.428-5.556 11.5-11.99 11.5h-8.979c-6.433 0-11.722-5.073-11.99-11.5l-7-168c-.283-6.818 5.167-12.5 11.99-12.5zM256 340c-15.464 0-28 12.536-28 28s12.536 28 28 28 28-12.536 28-28-12.536-28-28-28z"
+            />
+          </svg>
+          <span class="sib-form-message-panel__inner-text">
+                      Your subscription could not be saved. Please try again.
+                  </span>
+        </div>
+      </div>
+      <div></div>
+      <div id="success-message" class="sib-form-message-panel" style=" font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#085229; background-color:#e7faf0; border-radius:3px; border-width:px; border-color:#13ce66; max-width:540px; border-width:px;">
+        <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+          <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
+            <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 464c-118.664 0-216-96.055-216-216 0-118.663 96.055-216 216-216 118.664 0 216 96.055 216 216 0 118.663-96.055 216-216 216zm141.63-274.961L217.15 376.071c-4.705 4.667-12.303 4.637-16.97-.068l-85.878-86.572c-4.667-4.705-4.637-12.303.068-16.97l8.52-8.451c4.705-4.667 12.303-4.637 16.97.068l68.976 69.533 163.441-162.13c4.705-4.667 12.303-4.637 16.97.068l8.451 8.52c4.668 4.705 4.637 12.303-.068 16.97z"
+            />
+          </svg>
+          <span class="sib-form-message-panel__inner-text">
+                      Your subscription has been successful.
+                  </span>
+        </div>
+      </div>
+      <div></div>
+      <div id="sib-container" class="sib-container--large sib-container--vertical" style=" text-align:center; background-color:rgba(255,255,255,1); max-width:540px; border-radius:3px; border-width:1px; border-color:#ffffff; border-style:solid;">
+        <form id="sib-form" method="POST" action="https://sibforms.com/serve/MUIEAMfqTZCKNPUrdOHxSPU7gYhIVkkqcrvr4K9j-6Sd_xU8xzjceKQu_la2YXajKxDM1LxO9_2oCjWWOOy3W32wR0BaYNDowZlYlsOl-WebfX_Q-f5aNSJBZBc8TsF8COR0r3Iz3h5-PwfEnp5LtT10AMeFOiCZYzG5EGDTyYw-54zqDpt65xpSy9vmRDv8Eivxa4ntO93Y7oFs">
+          <div style="padding: 5px 0;">
+            <div class="sib-input sib-form-block">
+              <div class="form__entry entry_block">
+                <div class="form__label-row ">
+                  <label class="entry__label" style=" font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3c4858; border-width:px;" for="EMAIL" data-required="*">
+                    Subscribe! Get the latest update delivered to your inbox!
+                  </label>
+
+                  <div id="subarea" class="entry__field">
+                    <input class="input" type="email" id="EMAIL" name="EMAIL" autocomplete="off" placeholder=" email address, for e.g abc@xyz.com" data-required="true" required />
+                  </div>
+                </div>
+
+                <label class="entry__error entry__error--primary" style=" font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-width:px; border-color:#ff4949;">
+                </label>
+                <label class="entry__specification" style=" font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#8390A4; border-width:px;">
+                  Your privacy is crucial to me. I am looking forward to communicate with you.
+                </label>
+              </div>
+            </div>
+          </div>
+          <div style="padding: 5px 0;">
+            <div class="sib-form-block" style="text-align: center">
+              <button class="sib-form-block__button" style=" font-size:16px; text-align:center; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#FFFFFF; background-color:#3E4857; border-radius:3px; border-width:0px;" form="sib-form" type="submit">
+                SUBSCRIBE
+              </button>
+              <div class="sib-loader" style="display: none;">
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+                <div style="background: #3E4857;"></div>
+              </div>
+            </div>
+          </div>
+          <div style="padding: 5px 0;">
+            <div class="sib-form-block" style=" font-size:14px; text-align:center; font-family:&quot;Helvetica&quot;, sans-serif; color:#333; background-color:transparent; border-width:px;">
+              <div class="sib-text-form-block">
+              </div>
+            </div>
+          </div>
+          <input type="text" name="email_address_check" value="" class="input--hidden">
+          <input type="hidden" name="locale" value="en">
+        </form>
+      </div>
+      <script>
+        window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+
+        window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+        window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank. ";
+
+        window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+
+
+
+        window.translation = {
+          common: {
+            selectedList: '{quantity} list selected',
+            selectedLists: '{quantity} lists selected'
+          }
+        };
+
+        var AUTOHIDE = Boolean(1);
+      </script>
+      <script src="https://sibforms.com/forms/end-form/build/main.js">
+      </script>
+    </div>
+  </body>
 
 -->
   <small class="text-muted mb-2">
